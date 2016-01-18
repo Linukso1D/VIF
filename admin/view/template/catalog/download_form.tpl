@@ -69,6 +69,27 @@
      <input type="text" name="user" value="<?php echo $user; ?>" placeholder="Выбранная группа пользователей смогут загружать данный материал" id="input-user" class="form-control" />   
             </div>
           </div>
+          
+          
+          
+             <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-mask"><span data-toggle="tooltip" title="Выберите группы пользователей которые смогу просматривать и загружать данный документ.">Группы&nbsp;пользователей</span></label>
+            <div class="col-sm-10">
+<p>
+    <?php $col=0; foreach ($costumers as $user) { ?>
+    <input type="checkbox" name="user<?php echo $col;?>" value="a1" <?php if ($user['flagCheked']=='true') { echo 'checked' ;} ?>  > <?php echo $user['nameCostumer'];  ?>
+   <?php } ?>
+</p>
+            
+            
+            
+            
+            
+     <input type="text" name="user" value="<?php echo $user; ?>" placeholder="Выбранная группа пользователей смогут загружать данный материал" id="input-user" class="form-control" />   
+            </div>
+          </div>
+          
+          
           <!-- TODO -->
           
           

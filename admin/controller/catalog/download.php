@@ -382,15 +382,65 @@ class ControllerCatalogDownload extends Controller {
 			$data['mask'] = '';
 		}
 
-        //TODO 18.01 18:19
-        if (isset($this->request->post['user'])) {
-			$data['user'] = $this->request->post['user'];
-		} elseif (!empty($download_info)) {
-			$data['user'] = $download_info['user_group'];
-		} else {
-			$data['user'] = '';
+      
+                //TODO 18.01 18:19
+        $down = $this->model_catalog_download->getDownloads();
+
+		foreach ($down as $one) {
+			$data['downloads'][] = array(
+				'download_id' => $one['download_id'],
+				'name'        => $one['name'],
+                'user'        => $one['user_group']
+                //TODO
+			);
 		}
-        //TODO
+        
+        
+                $this->load->model('customer/customer_group');
+                $data['user_groups'] = $this->model_customer_customer_group->getCustomerGroups();
+        
+                foreach ($data['user_groups'] as $user)
+                {
+                    foreach($down as $one)
+                    {
+                        
+                    if($user['name']==$one['user_group'])
+                        {
+                                     $data['costumers'][$one['user_group']]= array
+                                         (
+                                    'nameCostumer' => $one['user_group'],
+                                    'flagCheked'        => 'true'
+                                    
+                                     );
+                     
+                        }
+                        else
+                        {
+                          //  if( $data['costumers'] contains $user['name']) {break;}
+                            
+                            
+                              $data['costumers'][$user['name']]= array
+                                     (
+                                    'nameCostumer' => $user['name'],
+                                    'flagCheked'        => 'false'
+                            
+                                     );
+             
+                        }
+                        
+                    }
+                }
+
+
+
+                if (isset($this->request->post['user'])) {
+                    $data['user'] = $this->request->post['user'];
+                } elseif (!empty($download_info)) {
+                    $data['user'] = $download_info['user_group'];
+                } else {
+                    $data['user'] = '';
+                }
+                //TODO
         
         
         

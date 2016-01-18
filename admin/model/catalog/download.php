@@ -2,9 +2,10 @@
 class ModelCatalogDownload extends Model {
 	public function addDownload($data) {
 		$this->event->trigger('pre.admin.download.add', $data);
-
-		$this->db->query("INSERT INTO " . DB_PREFIX . "download SET filename = '" . $this->db->escape($data['filename']) . "', mask = '" . $this->db->escape($data['mask']) . "', date_added = NOW()");
-
+//TODO 18.01 17:50
+        
+$this->db->query("INSERT INTO " . DB_PREFIX . "download SET filename = '" . $this->db->escape($data['filename']) . "', mask = '" . $this->db->escape($data['mask']) .  "', user_group = '" . $this->db->escape($data['user']) . "', date_added = NOW()");
+// ^ TODO 
 		$download_id = $this->db->getLastId();
 
 		foreach ($data['download_description'] as $language_id => $value) {
@@ -19,7 +20,8 @@ class ModelCatalogDownload extends Model {
 	public function editDownload($download_id, $data) {
 		$this->event->trigger('pre.admin.download.edit', $data);
 
-		$this->db->query("UPDATE " . DB_PREFIX . "download SET filename = '" . $this->db->escape($data['filename']) . "', mask = '" . $this->db->escape($data['mask']) . "' WHERE download_id = '" . (int)$download_id . "'");
+		$this->db->query("UPDATE " . DB_PREFIX . "download SET filename = '" . $this->db->escape($data['filename']) . "', mask = '" . $this->db->escape($data['mask']) . 
+        /*TODO 18.01 17:52 */                "', user_group = '" . $this->db->escape($data['user']) . "' WHERE download_id = '" . (int)$download_id . "'");
 
 		$this->db->query("DELETE FROM " . DB_PREFIX . "download_description WHERE download_id = '" . (int)$download_id . "'");
 

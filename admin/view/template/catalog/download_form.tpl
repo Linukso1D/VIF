@@ -62,7 +62,14 @@
             </div>
           </div>
           
-          
+          <!-- TODO: User Group created 18.01 17:28 -->
+           <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-mask"><span data-toggle="tooltip" title="Выберите группу пользователей которые смогу просматривать и загружать данный документ.">Группа&nbsp;пользователей</span></label>
+            <div class="col-sm-10">
+     <input type="text" name="user" value="<?php echo $user; ?>" placeholder="Выбранная группа пользователей смогут загружать данный материал" id="input-user" class="form-control" />   
+            </div>
+          </div>
+          <!-- TODO -->
           
           
         </form>
@@ -109,6 +116,8 @@ $('#button-upload').on('click', function() {
 						
 						$('input[name=\'filename\']').attr('value', json['filename']);
 						$('input[name=\'mask\']').attr('value', json['mask']);
+                        $('input[name=\'user\']').attr('value', json['user']);
+                        
 					}
 				},			
 				error: function(xhr, ajaxOptions, thrownError) {

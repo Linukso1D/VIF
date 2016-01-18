@@ -176,7 +176,10 @@ class ControllerCatalogDownload extends Controller {
 				'download_id' => $result['download_id'],
 				'name'        => $result['name'],
 				'date_added'  => date($this->language->get('date_format_short'), strtotime($result['date_added'])),
-				'edit'        => $this->url->link('catalog/download/edit', 'token=' . $this->session->data['token'] . '&download_id=' . $result['download_id'] . $url, 'SSL')
+				'edit'        => $this->url->link('catalog/download/edit', 'token=' . $this->session->data['token'] . '&download_id=' . $result['download_id'] . $url, 'SSL'),
+                // TODO user-group create 18.01 17:33
+                'user'        => $result['user_group']
+                //TODO
 			);
 		}
 
@@ -349,6 +352,11 @@ class ControllerCatalogDownload extends Controller {
 		} else {
 			$data['download_id'] = 0;
 		}
+        
+        
+        
+              
+        
 
 		if (isset($this->request->post['download_description'])) {
 			$data['download_description'] = $this->request->post['download_description'];
@@ -374,6 +382,18 @@ class ControllerCatalogDownload extends Controller {
 			$data['mask'] = '';
 		}
 
+        //TODO 18.01 18:19
+        if (isset($this->request->post['user'])) {
+			$data['user'] = $this->request->post['user'];
+		} elseif (!empty($download_info)) {
+			$data['user'] = $download_info['user_group'];
+		} else {
+			$data['user'] = '';
+		}
+        //TODO
+        
+        
+        
 		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['footer'] = $this->load->controller('common/footer');
@@ -470,6 +490,7 @@ class ControllerCatalogDownload extends Controller {
 
 			$json['filename'] = $file;
 			$json['mask'] = $filename;
+            
 
 			$json['success'] = $this->language->get('text_upload');
 		}

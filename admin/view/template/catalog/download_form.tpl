@@ -41,11 +41,12 @@
           <div class="form-group">
             <label class="col-sm-2 control-label" for="input-filename"><span data-toggle="tooltip" title="<?php echo $help_filename; ?>"><?php echo $entry_filename; ?></span></label>
             <div class="col-sm-10">
-              <div class="input-group">
-                <input type="text" name="filename" value="<?php echo $filename; ?>" placeholder="<?php echo $entry_filename; ?>" id="input-filename" class="form-control" />
-                <span class="input-group-btn">
-                <button type="button" id="button-upload" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary"><i class="fa fa-upload"></i> <?php echo $button_upload; ?></button>
-                </span> </div>
+      <div class="input-group">
+        <input type="text" name="filename" value="<?php echo $filename; ?>" placeholder="<?php echo $entry_filename; ?>" id="input-filename" class="form-control" />
+        <span class="input-group-btn">
+        <button type="button" id="button-upload" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary"><i class="fa fa-upload"></i> <?php echo $button_upload; ?></button>
+        </span> 
+        </div>
               <?php if ($error_filename) { ?>
               <div class="text-danger"><?php echo $error_filename; ?></div>
               <?php } ?>
@@ -60,6 +61,10 @@
               <?php } ?>
             </div>
           </div>
+          
+          
+          
+          
         </form>
       </div>
     </div>

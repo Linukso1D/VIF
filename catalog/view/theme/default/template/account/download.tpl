@@ -19,7 +19,7 @@
       <table class="table table-bordered table-hover">
         <thead>
           <tr>
-            <td class="text-right"><?php echo $column_order_id; ?></td>
+            
             <td class="text-left"><?php echo $column_name; ?></td>
             <td class="text-left"><?php echo $column_size; ?></td>
             <td class="text-left"><?php echo $column_date_added; ?></td>
@@ -29,15 +29,19 @@
         <tbody>
           <?php foreach ($downloads as $download) { ?>
           <tr>
-            <td class="text-right"><?php echo $download['order_id']; ?></td>
+            
             <td class="text-left"><?php echo $download['name']; ?></td>
             <td class="text-left"><?php echo $download['size']; ?></td>
             <td class="text-left"><?php echo $download['date_added']; ?></td>
             <td><a href="<?php echo $download['href']; ?>" data-toggle="tooltip" title="<?php echo $button_download; ?>" class="btn btn-primary"><i class="fa fa-cloud-download"></i></a></td>
+            <td class="text-left"><?php echo $download['user_group']; ?></td>
           </tr>
           <?php } ?>
         </tbody>
       </table>
+      
+     
+      
       <div class="row">
         <div class="col-sm-6 text-left"><?php echo $pagination; ?></div>
         <div class="col-sm-6 text-right"><?php echo $results; ?></div>
@@ -48,6 +52,13 @@
       <div class="buttons clearfix">
         <div class="pull-right"><a href="<?php echo $continue; ?>" class="btn btn-primary"><?php echo $button_continue; ?></a></div>
       </div>
+       <!-- TODO -->
+      <div class="row">
+          
+          <pre> <p><?php var_dump($cust_id); ?> </p></pre>  
+      </div>
+
+      <!-- TODO -->
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>

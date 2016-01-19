@@ -6,6 +6,8 @@ class ControllerAccountDownload extends Controller {
 
 			$this->response->redirect($this->url->link('account/login', '', 'SSL'));
 		}
+     
+        
 
 		$this->load->language('account/download');
 
@@ -52,8 +54,14 @@ class ControllerAccountDownload extends Controller {
 
 		$download_total = $this->model_account_download->getTotalDownloads();
 
-		$results = $this->model_account_download->getDownloads(($page - 1) * $this->config->get('config_product_limit'), $this->config->get('config_product_limit'));
+		 $results = $this->model_account_download->getDownloads();
 
+        
+            //TODO 19.01 16:25 формирование массива загрузок
+     
+        
+        $nameCostumer =$this->model_account_download->getNameCostumer($this->customer->getGroupId());
+        $data['NameCostumer']=$nameCostumer;
 		foreach ($results as $result) {
 			if (file_exists(DIR_DOWNLOAD . $result['filename'])) {
 				$size = filesize(DIR_DOWNLOAD . $result['filename']);
@@ -76,17 +84,20 @@ class ControllerAccountDownload extends Controller {
 					$size = $size / 1024;
 					$i++;
 				}
-
+                    
+               if(in_array($nameCostumer['name'],json_decode($result['user_group'])))           {
+                
 				$data['downloads'][] = array(
-					'order_id'   => $result['order_id'],
+					'user_group' => $result['user_group'],
 					'date_added' => date($this->language->get('date_format_short'), strtotime($result['date_added'])),
 					'name'       => $result['name'],
 					'size'       => round(substr($size, 0, strpos($size, '.') + 4), 2) . $suffix[$i],
 					'href'       => $this->url->link('account/download/download', 'download_id=' . $result['download_id'], 'SSL')
 				);
+                }
 			}
 		}
-
+            //TODO
 		$pagination = new Pagination();
 		$pagination->total = $download_total;
 		$pagination->page = $page;
@@ -133,7 +144,6 @@ class ControllerAccountDownload extends Controller {
 		if ($download_info) {
 			$file = DIR_DOWNLOAD . $download_info['filename'];
 			$mask = basename($download_info['mask']);
-
 			if (!headers_sent()) {
 				if (file_exists($file)) {
 					header('Content-Type: application/octet-stream');

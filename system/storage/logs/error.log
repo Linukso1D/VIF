@@ -560,3 +560,351 @@
 2016-01-19 14:32:21 - PHP Notice:  Undefined variable: gr in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 397
 2016-01-19 15:12:49 - PHP Notice:  Undefined variable: costumers in C:\xampp\htdocs\VIF\admin\view\template\catalog\download_form.tpl on line 79
 2016-01-19 15:12:49 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\VIF\admin\view\template\catalog\download_form.tpl on line 79
+2016-01-19 15:21:26 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:21:26 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:29:03 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:29:03 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:30:03 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:30:03 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:30:08 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:30:08 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:31:02 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:31:02 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:31:05 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:31:05 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:31:31 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:31:31 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:35:00 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:35:00 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:38:14 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:14 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:14 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:14 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:14 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:38:14 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:38:20 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:20 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:20 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:20 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:20 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:38:20 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:38:39 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:39 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:39 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:39 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:40 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:38:40 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:38:55 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:55 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:55 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:55 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 83
+2016-01-19 15:38:55 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:38:55 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:39:32 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:39:32 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:40:18 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:40:18 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:40:58 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:40:58 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:41:10 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:41:10 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:41:17 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:41:17 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:42:11 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:42:11 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:44:39 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:44:39 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:44:39 - PHP Notice:  Undefined variable: session in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 15:45:29 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:45:29 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:45:29 - PHP Notice:  Undefined variable: user in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 15:46:03 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:46:03 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:46:03 - PHP Notice:  Undefined variable: costumer in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 15:46:17 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:46:17 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:46:17 - PHP Notice:  Undefined variable: custumer in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 15:47:21 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:47:21 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:47:24 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:47:24 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:47:35 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:47:35 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:49:58 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:49:58 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:50:05 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:50:05 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:53:34 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:53:34 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:53:34 - PHP Notice:  Undefined variable: cust_id in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 15:54:46 - PHP Notice:  Undefined index: customer_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 60
+2016-01-19 15:54:47 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:54:47 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:54:47 - PHP Notice:  Undefined variable: cust_id in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 15:56:09 - PHP Notice:  Undefined index: customer_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 60
+2016-01-19 15:56:09 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:56:09 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:56:09 - PHP Notice:  Undefined variable: cust_id in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 15:56:58 - PHP Notice:  Undefined index: customer_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 60
+2016-01-19 15:56:58 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:56:58 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:56:58 - PHP Notice:  Undefined variable: cust_id in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 15:58:37 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:58:37 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:58:37 - PHP Notice:  Undefined variable: cust_id in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 15:58:43 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:58:43 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 15:58:43 - PHP Notice:  Undefined variable: cust_id in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 16:37:25 - PHP Notice:  Undefined index: customer_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 60
+2016-01-19 16:37:25 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:37:25 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:37:26 - PHP Notice:  Undefined index: customer_id in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 16:38:22 - PHP Notice:  Undefined index: customer_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 60
+2016-01-19 16:38:22 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:38:22 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:39:09 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:39:09 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:39:13 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:39:13 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:39:42 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:39:42 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:39:56 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:39:56 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:40:11 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:40:11 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:41:01 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:41:01 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:41:06 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:41:06 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:41:09 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:41:09 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:41:23 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:41:23 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:41:25 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:41:25 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:41:28 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:41:28 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:41:41 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:41:41 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:43:02 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:43:02 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:43:32 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:43:32 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:44:37 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:44:37 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:44:41 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:44:41 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:44:57 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:44:57 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:45:08 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:45:08 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:45:17 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:45:17 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:54:04 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:54:04 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:54:07 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`oc_download' at line 1<br />Error No: 1064<br />SELECT download.filename, download.mask FROM `oc_download in C:\xampp\htdocs\VIF\system\library\db\mysqli.php on line 41
+2016-01-19 16:54:07 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 16:54:07 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:54:07 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:54:11 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`oc_download' at line 1<br />Error No: 1064<br />SELECT download.filename, download.mask FROM `oc_download in C:\xampp\htdocs\VIF\system\library\db\mysqli.php on line 41
+2016-01-19 16:54:11 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 16:54:11 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:54:11 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:54:16 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`oc_download' at line 1<br />Error No: 1064<br />SELECT download.filename, download.mask FROM `oc_download in C:\xampp\htdocs\VIF\system\library\db\mysqli.php on line 41
+2016-01-19 16:54:16 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 16:54:16 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:54:16 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:54:20 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`oc_download' at line 1<br />Error No: 1064<br />SELECT download.filename, download.mask FROM `oc_download in C:\xampp\htdocs\VIF\system\library\db\mysqli.php on line 41
+2016-01-19 16:54:20 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 16:54:20 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:54:20 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:56:19 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:56:19 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:56:22 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '4' at line 1<br />Error No: 1064<br />SELECT filename, mask FROM `oc_download WHERE download_id=`4; in C:\xampp\htdocs\VIF\system\library\db\mysqli.php on line 41
+2016-01-19 16:56:22 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 16:56:22 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:56:22 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:56:24 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2' at line 1<br />Error No: 1064<br />SELECT filename, mask FROM `oc_download WHERE download_id=`2; in C:\xampp\htdocs\VIF\system\library\db\mysqli.php on line 41
+2016-01-19 16:56:24 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 16:56:24 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:56:24 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:56:52 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:56:52 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:56:55 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2' at line 1<br />Error No: 1064<br />SELECT filename, mask FROM `oc_download WHERE download_id=`2; in C:\xampp\htdocs\VIF\system\library\db\mysqli.php on line 41
+2016-01-19 16:56:55 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 7
+2016-01-19 16:56:55 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:56:55 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:56:59 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '4' at line 1<br />Error No: 1064<br />SELECT filename, mask FROM `oc_download WHERE download_id=`4; in C:\xampp\htdocs\VIF\system\library\db\mysqli.php on line 41
+2016-01-19 16:56:59 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 7
+2016-01-19 16:56:59 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:56:59 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:57:31 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2' at line 1<br />Error No: 1064<br />SELECT filename, mask FROM `oc_download WHERE download_id=`2; in C:\xampp\htdocs\VIF\system\library\db\mysqli.php on line 41
+2016-01-19 16:57:31 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 7
+2016-01-19 16:57:32 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:57:32 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:57:36 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2' at line 1<br />Error No: 1064<br />SELECT filename, mask FROM `oc_download WHERE download_id=`2; in C:\xampp\htdocs\VIF\system\library\db\mysqli.php on line 41
+2016-01-19 16:57:36 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 7
+2016-01-19 16:57:36 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:57:36 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:59:22 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:59:22 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:59:22 - PHP Notice:  Undefined variable: download_info in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 16:59:29 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:59:29 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 16:59:29 - PHP Notice:  Undefined variable: download_info in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:00:30 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:00:30 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:00:30 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:02:20 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:02:20 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:02:20 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:02:25 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 17:02:25 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:02:25 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:02:25 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:05:44 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 17:05:44 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:05:44 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:05:44 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:09:30 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:09:30 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:09:31 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:10:47 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:10:47 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:10:47 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:10:49 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:10:49 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:10:49 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:14:19 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:14:19 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:14:19 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:14:22 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 17:14:26 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 17:14:26 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:14:26 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:14:26 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:14:29 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 17:14:29 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:14:29 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:14:29 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:14:31 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 17:14:31 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:14:31 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:14:31 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:14:36 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 17:16:00 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:16:00 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:16:01 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:16:03 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 17:16:12 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:16:12 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:16:12 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:16:14 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 17:16:16 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\catalog\model\account\download.php on line 15
+2016-01-19 17:18:59 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:18:59 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:18:59 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:19:05 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:19:05 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:19:05 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:19:48 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:19:48 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:19:48 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:23:07 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:23:07 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:23:07 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:23:38 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:23:38 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:23:38 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:23:43 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:23:43 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:23:44 - PHP Notice:  Undefined variable: dinfo in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:24:12 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:24:12 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:24:12 - PHP Notice:  Undefined variable: customer in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:24:52 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:24:52 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:27:26 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:27:26 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:27:29 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:27:29 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:31:43 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:31:43 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:32:26 - PHP Notice:  Undefined index: cust_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 61
+2016-01-19 17:32:26 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:32:26 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:32:26 - PHP Notice:  Undefined variable: cust_id in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 45
+2016-01-19 17:32:59 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:32:59 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:33:18 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 63
+2016-01-19 17:33:19 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:33:19 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:33:30 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:33:30 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:33:44 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:33:44 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:37:10 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:37:10 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:38:07 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:38:07 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:38:29 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:38:29 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:41:18 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:41:18 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:41:18 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:41:18 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:41:18 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:41:18 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:41:22 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:41:22 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:41:22 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:41:22 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:41:22 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:41:22 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:41:50 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:41:50 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:42:00 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:42:00 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:43:15 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:43:15 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:43:17 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:43:17 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:43:20 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:43:20 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:44:42 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:44:42 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:45:57 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:45:57 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:45:57 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:45:57 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:45:57 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:45:57 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:46:34 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:46:34 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:46:34 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:46:34 - PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\VIF\catalog\controller\account\download.php on line 91
+2016-01-19 17:46:35 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:46:35 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:47:05 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:47:05 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:47:56 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:47:56 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:50:05 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:50:05 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:50:08 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:50:08 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:50:20 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:50:20 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:50:20 - PHP Notice:  Undefined index: cust_id in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 58
+2016-01-19 17:50:44 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:50:44 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:50:44 - PHP Notice:  Undefined index: cust_id in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 58
+2016-01-19 17:51:04 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:51:04 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:51:42 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:51:42 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:52:02 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:52:02 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:57:48 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:57:48 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 17:57:48 - PHP Notice:  Undefined variable: cust_id in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 58

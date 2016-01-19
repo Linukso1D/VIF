@@ -384,16 +384,9 @@ class ControllerCatalogDownload extends Controller {
 
       
                 //TODO 18.01 18:19
-        $down = $this->model_catalog_download->getDownloads();
+        $down = $this->model_catalog_download->getDownload($this->request->get['download_id']);
 
-		foreach ($down as $one) {
-			$data['downloads'][] = array(
-				'download_id' => $one['download_id'],
-				'name'        => $one['name'],
-                'user'        => $one['user_group']
-                //TODO
-			);
-		}
+	
         
         
                 $this->load->model('customer/customer_group');
@@ -401,14 +394,13 @@ class ControllerCatalogDownload extends Controller {
         
                 foreach ($data['user_groups'] as $user)
                 {
-                    foreach($down as $one)
-                    {
+                    
                         
-                    if($user['name']==$one['user_group'])
+                    if($user['name']==$down['user_group'])
                         {
-                                     $data['costumers'][$one['user_group']]= array
+                                     $data['costumers'][$down['user_group']]= array
                                          (
-                                    'nameCostumer' => $one['user_group'],
+                                    'nameCostumer' => $down['user_group'],
                                     'flagCheked'        => 'true'
                                     
                                      );
@@ -428,7 +420,7 @@ class ControllerCatalogDownload extends Controller {
              
                         }
                         
-                    }
+                    
                 }
 
 

@@ -473,3 +473,36 @@
 2016-01-18 18:45:16 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\admin\view\template\catalog\download_form.tpl on line 88
 2016-01-18 18:45:27 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\admin\view\template\catalog\download_form.tpl on line 88
 2016-01-18 18:46:36 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\admin\view\template\catalog\download_form.tpl on line 88
+2016-01-19 12:34:11 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 12:34:11 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'download_id' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 391
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'name' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 392
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'user_group' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 393
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'download_id' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 391
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'name' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 392
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'user_group' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 393
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'download_id' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 391
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'name' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 392
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'user_group' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 393
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'download_id' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 391
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'name' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 392
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'user_group' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 393
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'download_id' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 391
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'name' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 392
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'user_group' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 393
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'download_id' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 391
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'name' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 392
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'user_group' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 393
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'download_id' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 391
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'name' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 392
+2016-01-19 12:41:12 - PHP Warning:  Illegal string offset 'user_group' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 393
+2016-01-19 12:41:13 - PHP Warning:  Illegal string offset 'user_group' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 408
+2016-01-19 12:41:13 - PHP Warning:  Illegal string offset 'user_group' in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 410
+2016-01-19 12:41:13 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\admin\view\template\catalog\download_form.tpl on line 88
+2016-01-19 12:42:03 - PHP Notice:  Undefined variable: one in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 401
+2016-01-19 12:42:03 - PHP Notice:  Undefined variable: one in C:\xampp\htdocs\VIF\admin\controller\catalog\download.php on line 403
+2016-01-19 12:42:03 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\admin\view\template\catalog\download_form.tpl on line 88
+2016-01-19 12:42:33 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\admin\view\template\catalog\download_form.tpl on line 88
+2016-01-19 12:43:23 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\admin\view\template\catalog\download_form.tpl on line 88
+2016-01-19 12:43:29 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\admin\view\template\catalog\download_form.tpl on line 88
+2016-01-19 12:43:34 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\VIF\admin\view\template\catalog\download_form.tpl on line 88

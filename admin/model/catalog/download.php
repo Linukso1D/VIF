@@ -4,7 +4,7 @@ class ModelCatalogDownload extends Model {
 		$this->event->trigger('pre.admin.download.add', $data);
 //TODO 18.01 17:50
         
-$this->db->query("INSERT INTO " . DB_PREFIX . "download SET filename = '" . $this->db->escape($data['filename']) . "', mask = '" . $this->db->escape($data['mask']) .  "', user_group = '" . $this->db->escape($data['user']) . "', date_added = NOW()");
+$this->db->query("INSERT INTO " . DB_PREFIX . "download SET filename = '" . $this->db->escape($data['filename']) . "', mask = '" . $this->db->escape($data['mask']) .  "', user_group = '" . $this->db->escape(json_encode($data['user'])) . "', date_added = NOW()");
 // ^ TODO 
 		$download_id = $this->db->getLastId();
 
@@ -21,7 +21,7 @@ $this->db->query("INSERT INTO " . DB_PREFIX . "download SET filename = '" . $thi
 		$this->event->trigger('pre.admin.download.edit', $data);
 
 		$this->db->query("UPDATE " . DB_PREFIX . "download SET filename = '" . $this->db->escape($data['filename']) . "', mask = '" . $this->db->escape($data['mask']) . 
-        /*TODO 18.01 17:52 */                "', user_group = '" . $this->db->escape($data['user']) . "' WHERE download_id = '" . (int)$download_id . "'");
+        /*TODO 18.01 17:52 */                "', user_group = '" . $this->db->escape(json_encode($data['user'])) . "' WHERE download_id = '" . (int)$download_id . "'");
 
 		$this->db->query("DELETE FROM " . DB_PREFIX . "download_description WHERE download_id = '" . (int)$download_id . "'");
 

@@ -383,56 +383,88 @@ class ControllerCatalogDownload extends Controller {
 		}
 
       
-                //TODO 18.01 18:19
-        $down = $this->model_catalog_download->getDownload($this->request->get['download_id']);
-
-	
+                //TODO 18.01 18:19 при редактировании подтягиваеться сохраненное состояние групп пользователей
+	if (isset($this->request->get['download_id']) && ($this->request->server['REQUEST_METHOD'] != 'POST')) {
+			$down = $this->model_catalog_download->getDownload($this->request->get['download_id']);
+        
+        $c_group = json_decode($down['user_group']);
         
         
                 $this->load->model('customer/customer_group');
                 $data['user_groups'] = $this->model_customer_customer_group->getCustomerGroups();
-        
                 foreach ($data['user_groups'] as $user)
-                {
-                    
-                        
-                    if($user['name']==$down['user_group'])
-                        {
-                                     $data['costumers'][$down['user_group']]= array
-                                         (
-                                    'nameCostumer' => $down['user_group'],
-                                    'flagCheked'        => 'true'
-                                    
-                                     );
-                     
-                        }
+                { 
+                    if($c_group!=null)
+                                {
+                                    $data['costumers'][] = array (
+                                 'nameCostumer' => $user['name'],
+                                'flagCheked'   => in_array($user['name'], $c_group) ? 'true' : 'false'
+                                    );
+                            /*    foreach ($c_group as $gr) {
+                                                                if($user['name']==$gr)  {
+                                                                                             $data['costumers'][$user['name']]= array
+                                                                                                                                         (
+                                                                                                                                    'nameCostumer' => $user['name'],
+                                                                                                                                    'flagCheked'        => 'true'
+
+                                                                                                                                     );
+                                                                                        }
+                                                                                        else
+                                                                                        {
+                                                                                        $data['costumers'][$user['name']]= array
+                                                                                         (
+                                                                                        'nameCostumer' => $user['name'],
+                                                                                        'flagCheked'        => 'false'
+                                                                                         );
+
+                                                                                        }  
+                                
+                                                        }
+                                }*/}
                         else
                         {
-                          //  if( $data['costumers'] contains $user['name']) {break;}
-                            
-                            
-                              $data['costumers'][$user['name']]= array
+                            $data['costumers'][]= array
                                      (
                                     'nameCostumer' => $user['name'],
                                     'flagCheked'        => 'false'
-                            
                                      );
-             
                         }
-                        
+                    
                     
                 }
+		}
+          else
+                        {
+$this->load->model('customer/customer_group');
+$data['user_groups'] = $this->model_customer_customer_group->getCustomerGroups();
+foreach ($data['user_groups'] as $user)
+    { 
 
-
-
+            $data['costumers'][]= array
+             (
+            'nameCostumer' => $user['name'],
+            'flagCheked'        => 'false'
+             );
+    }
+}
+        
+        
+        
+                //todo загрузка в форму 
+        
                 if (isset($this->request->post['user'])) {
-                    $data['user'] = $this->request->post['user'];
+                               $data['user'] = $this->request->post['user'];
                 } elseif (!empty($download_info)) {
-                    $data['user'] = $download_info['user_group'];
+                                $data['user'] = $download_info['user_group'];
                 } else {
-                    $data['user'] = '';
+                                $data['user'] = '';
                 }
+        
+
                 //TODO
+                    
+
+
         
         
         

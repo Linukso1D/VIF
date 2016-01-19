@@ -62,30 +62,28 @@
             </div>
           </div>
           
-          <!-- TODO: User Group created 18.01 17:28 -->
+          <!-- TODO: User Group created 18.01 17:28
            <div class="form-group">
             <label class="col-sm-2 control-label" for="input-mask"><span data-toggle="tooltip" title="Выберите группу пользователей которые смогу просматривать и загружать данный документ.">Группа&nbsp;пользователей</span></label>
             <div class="col-sm-10">
      <input type="text" name="user" value="<?php echo $user; ?>" placeholder="Выбранная группа пользователей смогут загружать данный материал" id="input-user" class="form-control" />   
             </div>
-          </div>
+          </div> -->
           
           
-          
-             <div class="form-group">
+          <!-- TODO: checkbox created 19.01 13:45 -->
+            <div class="form-group">
             <label class="col-sm-2 control-label" for="input-mask"><span data-toggle="tooltip" title="Выберите группы пользователей которые смогу просматривать и загружать данный документ.">Группы&nbsp;пользователей</span></label>
             <div class="col-sm-10">
 <p>
-    <?php $col=0; foreach ($costumers as $user) { ?>
-    <input type="checkbox" name="user<?php echo $col;?>" value="a1" <?php if ($user['flagCheked']=='true') { echo 'checked' ;} ?>  > <?php echo $user['nameCostumer'];  ?>
-   <?php } ?>
+    <?php foreach ($costumers as $user) { ?>
+    <input type="checkbox" name="user[]" value="<?php echo $user['nameCostumer'];  ?>" <?php if ($user['flagCheked']=='true') { echo 'checked' ;} ?>  > <?php echo $user['nameCostumer'];  ?>
+   <?php  } ?>
 </p>
             
             
             
-            
-            
-     <input type="text" name="user" value="<?php echo $user; ?>" placeholder="Выбранная группа пользователей смогут загружать данный материал" id="input-user" class="form-control" />   
+          
             </div>
           </div>
           
@@ -137,7 +135,13 @@ $('#button-upload').on('click', function() {
 						
 						$('input[name=\'filename\']').attr('value', json['filename']);
 						$('input[name=\'mask\']').attr('value', json['mask']);
-                        $('input[name=\'user\']').attr('value', json['user']);
+                     
+                        //todo
+                       
+                        //$('input[name=\'user\']').attr('value', json['user']);       
+                
+                        
+                        
                         
 					}
 				},			

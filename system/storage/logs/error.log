@@ -918,3 +918,721 @@
 2016-01-20 11:16:37 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
 2016-01-20 11:16:44 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
 2016-01-20 11:16:44 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:09:30 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:09:30 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 22
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 24
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 25
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 26
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 27
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 28
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 29
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 30
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 31
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 33
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 34
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 35
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 36
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 37
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 38
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 39
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 40
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 41
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 42
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 44
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 45
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 46
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 47
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 52
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 55
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 57
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 63
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 69
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 75
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 77
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 83
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 89
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 95
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 101
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 107
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 113
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 119
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 125
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 131
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 137
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 143
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 156
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 184
+2016-01-20 12:12:29 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 189
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 22
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 24
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 25
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 26
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 27
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 28
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 29
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 30
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 31
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 33
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 34
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 35
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 36
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 37
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 38
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 39
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 40
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 41
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 42
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 44
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 45
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 46
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 47
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 52
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 55
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 57
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 63
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 69
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 75
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 77
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 83
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 89
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 95
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 101
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 107
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 113
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 119
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 125
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 131
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 137
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 143
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 156
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 184
+2016-01-20 12:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleNewslettersubscribe::$data has no effect in C:\xampp\htdocs\VIF\admin\controller\module\newslettersubscribe.php on line 189
+2016-01-20 12:15:18 - PHP Notice:  Undefined variable: header in C:\xampp\htdocs\VIF\admin\view\template\module\newslettersubscribe.tpl on line 1
+2016-01-20 12:16:58 - PHP Notice:  Undefined variable: header in C:\xampp\htdocs\VIF\admin\view\template\module\newslettersubscribe.tpl on line 1
+2016-01-20 12:16:58 - PHP Notice:  Undefined variable: footer in C:\xampp\htdocs\VIF\admin\view\template\module\newslettersubscribe.tpl on line 224
+2016-01-20 12:17:00 - PHP Notice:  Undefined variable: header in C:\xampp\htdocs\VIF\admin\view\template\module\newslettersubscribe.tpl on line 1
+2016-01-20 12:17:00 - PHP Notice:  Undefined variable: footer in C:\xampp\htdocs\VIF\admin\view\template\module\newslettersubscribe.tpl on line 224
+2016-01-20 12:20:40 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:20:40 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:24:34 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:24:34 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 47
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 56
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_dashboard in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 76
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_catalog in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 77
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: category in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 79
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_category in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 79
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 81
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 83
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 83
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: attribute_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 84
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_attribute_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 84
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: option in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 87
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_option in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 87
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: manufacturer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 88
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_manufacturer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 88
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: download in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 89
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_download in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 89
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: information in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 91
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_information in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 91
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_extension in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 94
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: module in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 96
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_module in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 96
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: shipping in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 97
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_shipping in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 97
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: payment in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 98
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_payment in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 98
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: total in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 99
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_total in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 99
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: feed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 100
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_feed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 100
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 103
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: order in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 105
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: customer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 109
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: customer_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 110
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_customer_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 110
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: affiliate in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 113
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: coupon in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 114
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_coupon in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 114
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 115
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 117
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 117
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: voucher_theme in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 118
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_voucher_theme in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 118
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: newssubscribe in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 122
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_newssubscribe in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 122
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: contact in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 124
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_contact in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 124
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_system in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 127
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: setting in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 129
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_setting in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 129
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_design in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 130
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 132
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_layout in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 132
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: banner in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 133
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_banner in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 133
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_users in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 136
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: user in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 138
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_user in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 138
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: user_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 139
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_user_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 139
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_localisation in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 142
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 144
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_language in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 144
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: currency in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 145
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_currency in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 145
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: stock_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 146
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_stock_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 146
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: order_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 147
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_order_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 147
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: return_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 150
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_return_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 150
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: return_action in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 151
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_return_action in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 151
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: return_reason in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 152
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_return_reason in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 152
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: country in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 155
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_country in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 155
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 156
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 156
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: geo_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 157
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_geo_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 157
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: tax_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 158
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_tax_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 158
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: length_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 159
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_length_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 159
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: weight_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 160
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_weight_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 160
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: error_log in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 163
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_error_log in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 163
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: backup in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 164
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_backup in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 164
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_reports in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 167
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: report_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 169
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_report_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 169
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: report_viewed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 170
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_report_viewed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 170
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: report_purchased in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 171
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_report_purchased in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 171
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: text_opencart in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 176
+2016-01-20 12:26:58 - PHP Notice:  Undefined variable: store in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 183
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 47
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 56
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_dashboard in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 76
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_catalog in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 77
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: category in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 79
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_category in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 79
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 81
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 83
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 83
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: attribute_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 84
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_attribute_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 84
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: option in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 87
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_option in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 87
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: manufacturer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 88
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_manufacturer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 88
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: download in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 89
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_download in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 89
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: information in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 91
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_information in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 91
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_extension in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 94
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: module in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 96
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_module in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 96
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: shipping in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 97
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_shipping in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 97
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: payment in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 98
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_payment in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 98
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: total in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 99
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_total in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 99
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: feed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 100
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_feed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 100
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 103
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: order in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 105
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: customer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 109
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: customer_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 110
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_customer_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 110
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: affiliate in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 113
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: coupon in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 114
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_coupon in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 114
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 115
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 117
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 117
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: voucher_theme in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 118
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_voucher_theme in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 118
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: newssubscribe in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 122
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_newssubscribe in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 122
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: contact in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 124
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_contact in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 124
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_system in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 127
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: setting in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 129
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_setting in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 129
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_design in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 130
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 132
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_layout in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 132
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: banner in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 133
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_banner in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 133
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_users in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 136
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: user in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 138
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_user in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 138
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: user_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 139
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_user_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 139
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_localisation in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 142
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 144
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_language in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 144
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: currency in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 145
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_currency in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 145
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: stock_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 146
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_stock_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 146
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: order_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 147
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_order_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 147
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: return_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 150
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_return_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 150
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: return_action in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 151
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_return_action in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 151
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: return_reason in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 152
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_return_reason in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 152
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: country in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 155
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_country in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 155
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 156
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 156
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: geo_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 157
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_geo_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 157
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: tax_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 158
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_tax_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 158
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: length_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 159
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_length_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 159
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: weight_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 160
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_weight_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 160
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: error_log in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 163
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_error_log in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 163
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: backup in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 164
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_backup in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 164
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_reports in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 167
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: report_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 169
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_report_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 169
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: report_viewed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 170
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_report_viewed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 170
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: report_purchased in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 171
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_report_purchased in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 171
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: text_opencart in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 176
+2016-01-20 12:27:05 - PHP Notice:  Undefined variable: store in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 183
+2016-01-20 12:27:12 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:27:12 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 47
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 56
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_dashboard in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 76
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_catalog in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 77
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: category in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 79
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_category in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 79
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 81
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 83
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 83
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: attribute_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 84
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_attribute_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 84
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: option in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 87
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_option in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 87
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: manufacturer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 88
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_manufacturer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 88
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: download in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 89
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_download in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 89
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: information in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 91
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_information in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 91
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_extension in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 94
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: module in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 96
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_module in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 96
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: shipping in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 97
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_shipping in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 97
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: payment in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 98
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_payment in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 98
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: total in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 99
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_total in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 99
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: feed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 100
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_feed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 100
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 103
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: order in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 105
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: customer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 109
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: customer_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 110
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_customer_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 110
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: affiliate in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 113
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: coupon in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 114
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_coupon in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 114
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 115
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 117
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 117
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: voucher_theme in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 118
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_voucher_theme in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 118
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: newssubscribe in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 122
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_newssubscribe in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 122
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: contact in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 124
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_contact in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 124
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_system in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 127
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: setting in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 129
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_setting in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 129
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_design in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 130
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 132
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_layout in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 132
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: banner in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 133
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_banner in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 133
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_users in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 136
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: user in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 138
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_user in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 138
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: user_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 139
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_user_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 139
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_localisation in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 142
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 144
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_language in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 144
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: currency in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 145
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_currency in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 145
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: stock_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 146
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_stock_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 146
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: order_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 147
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_order_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 147
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: return_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 150
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_return_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 150
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: return_action in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 151
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_return_action in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 151
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: return_reason in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 152
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_return_reason in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 152
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: country in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 155
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_country in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 155
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 156
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 156
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: geo_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 157
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_geo_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 157
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: tax_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 158
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_tax_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 158
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: length_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 159
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_length_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 159
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: weight_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 160
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_weight_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 160
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: error_log in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 163
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_error_log in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 163
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: backup in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 164
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_backup in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 164
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_reports in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 167
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: report_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 169
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_report_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 169
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: report_viewed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 170
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_report_viewed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 170
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: report_purchased in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 171
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_report_purchased in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 171
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: text_opencart in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 176
+2016-01-20 12:27:25 - PHP Notice:  Undefined variable: store in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 183
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 47
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 56
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_dashboard in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 76
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_catalog in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 77
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: category in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 79
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_category in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 79
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 81
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 83
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 83
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: attribute_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 84
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_attribute_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 84
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: option in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 87
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_option in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 87
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: manufacturer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 88
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_manufacturer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 88
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: download in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 89
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_download in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 89
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: information in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 91
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_information in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 91
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_extension in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 94
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: module in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 96
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_module in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 96
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: shipping in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 97
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_shipping in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 97
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: payment in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 98
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_payment in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 98
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: total in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 99
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_total in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 99
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: feed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 100
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_feed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 100
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 103
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: order in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 105
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: customer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 109
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: customer_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 110
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_customer_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 110
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: affiliate in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 113
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: coupon in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 114
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_coupon in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 114
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 115
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 117
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 117
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: voucher_theme in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 118
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_voucher_theme in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 118
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: newssubscribe in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 122
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_newssubscribe in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 122
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: contact in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 124
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_contact in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 124
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_system in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 127
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: setting in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 129
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_setting in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 129
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_design in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 130
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 132
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_layout in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 132
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: banner in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 133
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_banner in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 133
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_users in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 136
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: user in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 138
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_user in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 138
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: user_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 139
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_user_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 139
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_localisation in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 142
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 144
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_language in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 144
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: currency in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 145
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_currency in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 145
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: stock_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 146
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_stock_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 146
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: order_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 147
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_order_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 147
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: return_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 150
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_return_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 150
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: return_action in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 151
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_return_action in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 151
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: return_reason in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 152
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_return_reason in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 152
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: country in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 155
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_country in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 155
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 156
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 156
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: geo_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 157
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_geo_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 157
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: tax_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 158
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_tax_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 158
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: length_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 159
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_length_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 159
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: weight_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 160
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_weight_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 160
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: error_log in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 163
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_error_log in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 163
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: backup in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 164
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_backup in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 164
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_reports in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 167
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: report_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 169
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_report_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 169
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: report_viewed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 170
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_report_viewed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 170
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: report_purchased in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 171
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_report_purchased in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 171
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: text_opencart in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 176
+2016-01-20 12:29:23 - PHP Notice:  Undefined variable: store in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 183
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 47
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 56
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_dashboard in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 76
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_catalog in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 77
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: category in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 79
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_category in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 79
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 81
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 83
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 83
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: attribute_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 84
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_attribute_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 84
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: option in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 87
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_option in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 87
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: manufacturer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 88
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_manufacturer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 88
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: download in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 89
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_download in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 89
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: information in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 91
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_information in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 91
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_extension in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 94
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: module in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 96
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_module in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 96
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: shipping in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 97
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_shipping in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 97
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: payment in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 98
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_payment in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 98
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: total in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 99
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_total in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 99
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: feed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 100
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_feed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 100
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 103
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: order in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 105
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: customer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 109
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: customer_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 110
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_customer_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 110
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: affiliate in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 113
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: coupon in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 114
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_coupon in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 114
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 115
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 117
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 117
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: voucher_theme in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 118
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_voucher_theme in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 118
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: newssubscribe in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 122
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_newssubscribe in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 122
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: contact in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 124
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_contact in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 124
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_system in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 127
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: setting in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 129
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_setting in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 129
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_design in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 130
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 132
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_layout in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 132
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: banner in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 133
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_banner in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 133
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_users in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 136
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: user in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 138
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_user in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 138
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: user_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 139
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_user_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 139
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_localisation in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 142
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 144
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_language in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 144
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: currency in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 145
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_currency in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 145
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: stock_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 146
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_stock_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 146
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: order_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 147
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_order_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 147
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: return_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 150
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_return_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 150
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: return_action in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 151
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_return_action in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 151
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: return_reason in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 152
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_return_reason in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 152
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: country in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 155
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_country in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 155
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 156
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 156
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: geo_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 157
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_geo_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 157
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: tax_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 158
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_tax_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 158
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: length_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 159
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_length_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 159
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: weight_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 160
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_weight_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 160
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: error_log in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 163
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_error_log in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 163
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: backup in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 164
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_backup in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 164
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_reports in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 167
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: report_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 169
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_report_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 169
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: report_viewed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 170
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_report_viewed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 170
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: report_purchased in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 171
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_report_purchased in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 171
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: text_opencart in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 176
+2016-01-20 12:29:30 - PHP Notice:  Undefined variable: store in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 183
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 47
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 56
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_dashboard in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 76
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_catalog in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 77
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: category in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 79
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_category in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 79
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 81
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 83
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_attribute in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 83
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: attribute_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 84
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_attribute_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 84
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: option in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 87
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_option in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 87
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: manufacturer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 88
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_manufacturer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 88
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: download in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 89
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_download in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 89
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: information in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 91
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_information in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 91
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_extension in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 94
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: module in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 96
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_module in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 96
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: shipping in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 97
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_shipping in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 97
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: payment in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 98
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_payment in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 98
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: total in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 99
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_total in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 99
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: feed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 100
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_feed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 100
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 103
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: order in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 105
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: customer in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 109
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: customer_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 110
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_customer_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 110
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: affiliate in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 113
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: coupon in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 114
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_coupon in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 114
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 115
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 117
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_voucher in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 117
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: voucher_theme in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 118
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_voucher_theme in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 118
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: newssubscribe in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 122
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_newssubscribe in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 122
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: contact in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 124
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_contact in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 124
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_system in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 127
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: setting in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 129
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_setting in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 129
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_design in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 130
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: layout in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 132
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_layout in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 132
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: banner in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 133
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_banner in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 133
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_users in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 136
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: user in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 138
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_user in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 138
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: user_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 139
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_user_group in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 139
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_localisation in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 142
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 144
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_language in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 144
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: currency in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 145
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_currency in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 145
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: stock_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 146
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_stock_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 146
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: order_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 147
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_order_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 147
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: return_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 150
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_return_status in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 150
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: return_action in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 151
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_return_action in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 151
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: return_reason in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 152
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_return_reason in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 152
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: country in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 155
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_country in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 155
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 156
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 156
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: geo_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 157
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_geo_zone in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 157
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: tax_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 158
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_tax_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 158
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: length_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 159
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_length_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 159
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: weight_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 160
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_weight_class in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 160
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: error_log in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 163
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_error_log in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 163
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: backup in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 164
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_backup in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 164
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_reports in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 167
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: report_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 169
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_report_sale in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 169
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: report_viewed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 170
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_report_viewed in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 170
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: report_purchased in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 171
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_report_purchased in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 171
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: text_opencart in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 176
+2016-01-20 12:29:36 - PHP Notice:  Undefined variable: store in C:\xampp\htdocs\VIF\system\storage\modification\admin\view\template\common\header.tpl on line 183
+2016-01-20 12:30:30 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:30:30 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:31:46 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:31:46 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:32:34 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:32:34 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:35:07 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:35:07 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:35:10 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:35:10 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:35:10 - PHP Notice:  Undefined variable: cust_id in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 58
+2016-01-20 12:43:51 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-20 12:43:51 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-21 10:26:34 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-21 10:26:34 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-21 11:08:57 - PHP Notice:  Undefined variable: news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27
+2016-01-21 11:08:57 - PHP Notice:  Undefined variable: text_news in C:\xampp\htdocs\VIF\system\storage\modification\catalog\view\theme\default\template\common\footer.tpl on line 27

@@ -17,29 +17,7 @@ class ModelSettingNews extends Model {
 	}
 	
 	private function call() {
-		$curl = array(
-			CURLOPT_POST => 0,
-			CURLOPT_HEADER => 0,
-			CURLOPT_URL => 'http://www.marketinsg.com/index.php?route=information/news/system&url=' . rawurlencode(HTTP_CATALOG),
-			CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.1) Gecko/20061204 Firefox/2.0.0.1', 
-			CURLOPT_FRESH_CONNECT => 1,
-			CURLOPT_RETURNTRANSFER => 1,
-			CURLOPT_FORBID_REUSE => 1,
-			CURLOPT_TIMEOUT => 0,
-			CURLOPT_SSL_VERIFYPEER => 0,
-			CURLOPT_SSL_VERIFYHOST => 0
-		);
 		
-		$ch = curl_init();
-		curl_setopt_array($ch, ($curl));
-		
-		if (!$result = curl_exec($ch)) {
-			curl_close($ch);
-			
-			exit;
-		}
-		
-		curl_close($ch);
 		
 		$encoding = mb_detect_encoding($result);
 

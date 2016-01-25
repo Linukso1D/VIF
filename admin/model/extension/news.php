@@ -85,4 +85,9 @@ class ModelExtensionNews extends Model {
 	
 		return $query->row['total'];
 	}
+    public function getSelectNews($news_id) {
+		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "news n LEFT JOIN " . DB_PREFIX . "news_description nd ON n.news_id = nd.news_id WHERE n.news_id = '" . (int)$news_id . "' AND nd.language_id = '" . (int)$this->config->get('config_language_id') . "'");
+		
+		return $query->row;
+	}
 }

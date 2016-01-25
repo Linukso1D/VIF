@@ -42,9 +42,12 @@
                 <option value="affiliate_all"><?php echo $text_affiliate_all; ?></option>
                 <option value="affiliate"><?php echo $text_affiliate; ?></option>
                 <option value="product"><?php echo $text_product; ?></option>
+                <!-- TODO 23/01/16 -->
+                <option value="news">Новость</option>
               </select>
             </div>
           </div>
+          
           <div class="form-group to" id="to-customer-group">
             <label class="col-sm-2 control-label" for="input-customer-group"><?php echo $entry_customer_group; ?></label>
             <div class="col-sm-10">
@@ -55,6 +58,21 @@
               </select>
             </div>
           </div>
+          
+          <!-- TODO для новости список -->
+          <div class="form-group to" id="to-news">
+            <label class="col-sm-2 control-label" for="input-news">Новость:</label>
+            <div class="col-sm-10">
+              <select name="news_id" id="input-news" class="form-control">
+                <?php foreach ($all_news as $news) { ?>
+                <option value="<?php echo $news['news_id']; ?>"><?php echo $news['title']; ?></option>
+                <?php } ?>
+              </select>
+            </div>
+          </div>
+          <!-- TODO -->
+          
+          
           <div class="form-group to" id="to-customer">
             <label class="col-sm-2 control-label" for="input-customer"><span data-toggle="tooltip" title="<?php echo $help_customer; ?>"><?php echo $entry_customer; ?></span></label>
             <div class="col-sm-10">
@@ -62,6 +80,7 @@
               <div class="well well-sm" style="height: 150px; overflow: auto;"></div>
             </div>
           </div>
+          
           <div class="form-group to" id="to-affiliate">
             <label class="col-sm-2 control-label" for="input-affiliate"><span data-toggle="tooltip" title="<?php echo $help_affiliate; ?>"><?php echo $entry_affiliate; ?></span></label>
             <div class="col-sm-10">
@@ -69,6 +88,7 @@
               <div class="well well-sm" style="height: 150px; overflow: auto;"></div>
             </div>
           </div>
+          
           <div class="form-group to" id="to-product">
             <label class="col-sm-2 control-label" for="input-product"><span data-toggle="tooltip" title="<?php echo $help_product; ?>"><?php echo $entry_product; ?></span></label>
             <div class="col-sm-10">
@@ -76,18 +96,21 @@
               <div class="well well-sm" style="height: 150px; overflow: auto;"></div>
             </div>
           </div>
+          
           <div class="form-group required">
             <label class="col-sm-2 control-label" for="input-subject"><?php echo $entry_subject; ?></label>
             <div class="col-sm-10">
               <input type="text" name="subject" value="" placeholder="<?php echo $entry_subject; ?>" id="input-subject" class="form-control" />
             </div>
           </div>
+          
           <div class="form-group required">
             <label class="col-sm-2 control-label" for="input-message"><?php echo $entry_message; ?></label>
             <div class="col-sm-10">
               <textarea name="message" placeholder="<?php echo $entry_message; ?>" id="input-message" class="form-control"></textarea>
             </div>
           </div>
+          
         </form>
       </div>
     </div>

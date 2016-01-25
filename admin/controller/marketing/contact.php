@@ -58,7 +58,22 @@ class ControllerMarketingContact extends Controller {
 		$this->load->model('customer/customer_group');
 
 		$data['customer_groups'] = $this->model_customer_customer_group->getCustomerGroups();
+        
+        //выдернуть список новостей
+        // TODO 
+        $this->load->model('extension/news');
+        $data['all_news'] = array();
+		$all_news = $this->model_extension_news->getAllNews(0);
+		
+		foreach ($all_news as $news) {
+			$data['all_news'][] = array (
+				'news_id' 			=> $news['news_id'],
+				'title' 			=> $news['title']				
+			);
+		}
+        // TODO 
 
+        
 		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['footer'] = $this->load->controller('common/footer');
@@ -112,7 +127,12 @@ class ControllerMarketingContact extends Controller {
 				$email_total = 0;
 
 				$emails = array();
-
+                
+                
+                //TODO 
+        
+                $newsArray= array();
+                $productArray= array();
 				switch ($this->request->post['to']) {
 					case 'newsletter':
 						$customer_data = array(
@@ -123,8 +143,12 @@ class ControllerMarketingContact extends Controller {
 
 						$email_total = $this->model_customer_customer->getTotalCustomers($customer_data);
 
-						$results = $this->model_customer_customer->getCustomers($customer_data);
-
+						//$results = $this->model_customer_customer->getCustomers($customer_data);
+                                //TODO Интеграция получениея мыл бродячих пользователей
+                                $this->load->model('module/adv_newsletter');
+                                $emails_newsletter    = $this->model_module_adv_newsletter->getEmails();
+                                $results = array_merge($results, $emails_newsletter);
+                                //TODO
 						foreach ($results as $result) {
 							$emails[] = $result['email'];
 						}
@@ -195,16 +219,67 @@ class ControllerMarketingContact extends Controller {
 						}
 						break;
 					case 'product':
+                        //TODO изначально: отправляет писмо польлзователям которые уже заказали выбранные товары из списка
+                                //TODO преопредиление: отправить товары всем бродячим подписчикам
 						if (isset($this->request->post['product'])) {
-							$email_total = $this->model_sale_order->getTotalEmailsByProductsOrdered($this->request->post['product']);
-
-							$results = $this->model_sale_order->getEmailsByProductsOrdered($this->request->post['product'], ($page - 1) * 10, 10);
-
-							foreach ($results as $result) {
-								$emails[] = $result['email'];
-							}
+                            
+                            //Получение мыл
+                                                    $this->load->model('module/adv_newsletter');
+                                                    $emails_newsletter    = $this->model_module_adv_newsletter->getEmails();
+                                                    $results = array_merge($results, $emails_newsletter);
+                                                    foreach ($results as $result) 
+                                                    {
+                                                        $emails[] = $result['email'];
+                                                    }
+                            //получение продукт инфы 
+                             foreach ($this->request->post['product'] as $product) 
+                             {
+                                 $res=$this->model_sale_order->getProduct($product);
+                                 $productArray[]=array (
+                                     'name' => $res['name'],
+                                     'image' => $this->model_tool_image->resize($res['image'], 200, 128),
+                                     'description' =>(mb_strlen(strip_tags(html_entity_decode($res['description'], ENT_QUOTES))) > 125 ? mb_substr(strip_tags(html_entity_decode($res['description'], ENT_QUOTES)), 0, 125) . '...' : strip_tags(html_entity_decode($res['description'], ENT_QUOTES)))
+                                    );
+                             }
+                            
+                            
+                            
 						}
 						break;
+                        
+                        
+                        
+                        
+                        
+                        //тут нужно добавить кейс на новости, а именно  выдернуть с бд новости в емейл нажать отправить все подписчикам на новости, если не сработает то с таблицы module десериализовать почты обычным бродячим
+                        //-> (переопределение 230116) -> кому отправлять ^switch
+                        //TODO
+                        case 'news':
+                        //Получение новостей
+                        if (!empty($this->request->post['news_id'])) {
+                            $this->load->model('extension/news');
+						          
+                            
+                        
+                          $news = $this->model_extension_news->getSelectNews($this->request->post['news_id']);
+                          if ($news) {
+                            $newsArray = array(
+                                'text' 		=> $news['title'],
+                                'image'			=> $this->model_tool_image->resize($news['image'], 390, 245),
+                                'description' 	=> (mb_strlen(strip_tags(html_entity_decode($news['_description'], ENT_QUOTES))) > 400 ? mb_substr(strip_tags(html_entity_decode($news['description'], ENT_QUOTES)), 0, 400) . '...' : strip_tags(html_entity_decode($news['description'], ENT_QUOTES)))
+                            );
+						              }                   
+                                //TODO Интеграция получениея мыл бродячих пользователей
+                                $this->load->model('module/adv_newsletter');
+                                $emails_newsletter    = $this->model_module_adv_newsletter->getEmails();
+                                $results = array_merge($results, $emails_newsletter);
+                                //TODO
+						foreach ($results as $result) {
+							$emails[] = $result['email'];
+						}
+						break;
+                        
+                        
 				}
 
 				if ($emails) {
@@ -223,13 +298,68 @@ class ControllerMarketingContact extends Controller {
 						$json['next'] = '';
 					}
 
-					$message  = '<html dir="ltr" lang="en">' . "\n";
+                    
+                    
+                    //Здесь нужно добавить "если" выбранны новости то переменной $message присвоить шаблон
+                    //Так же если выбран продукт то другой шаблон
+                    
+                    
+                    
+                    
+ //TODO 230116 $newsArray для сообщения параметры которого  'text'  'image' (урезанный) 'description' (400 символов)
+//TODO 230116 product в разработке     $productArray ['name'|| 'image' || 'description']             
+                    
+                    
+                    
+                    
+                    //линки для шапки категорий в письме
+                            $this->load->model('catalog/category');
+                            $category_tomail = array();
+                            $categories = $this->model_catalog_category->getCategories(0);
+                            foreach ($categories as $category) 
+                                {
+                                    $category_tomail[] = array(
+                                    'name'     => $category['name'],
+                                    'href'     => $this->url->link('product/category', 'path=' . $category['category_id'])
+                                    );
+                                }
+                    
+                    // витвление сообщения 25012016 
+                    
+                    
+                    
+                    if(!empty($this->request->post['news_id']))
+                    {//если  новости
+                        
+                    }
+                    else if(isset($this->request->post['product']))
+                    {// реклама продуктов
+                        
+                        
+                    }
+                    else
+                    {//обычный месетдж
+                        
+                    $message  = '<html dir="ltr" lang="en">' . "\n";
 					$message .= '  <head>' . "\n";
 					$message .= '    <title>' . $this->request->post['subject'] . '</title>' . "\n";
 					$message .= '    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">' . "\n";
 					$message .= '  </head>' . "\n";
 					$message .= '  <body>' . html_entity_decode($this->request->post['message'], ENT_QUOTES, 'UTF-8') . '</body>' . "\n";
 					$message .= '</html>' . "\n";
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+					
 
 					foreach ($emails as $email) {
 						if (preg_match('/^[^\@]+@.*.[a-z]{2,15}$/i', $email)) {
@@ -257,4 +387,5 @@ class ControllerMarketingContact extends Controller {
 		$this->response->addHeader('Content-Type: application/json');
 		$this->response->setOutput(json_encode($json));
 	}
+}
 }

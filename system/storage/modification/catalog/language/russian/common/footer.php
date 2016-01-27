@@ -6,6 +6,9 @@ $_['text_information']  = 'Информация';
 
 				$_['text_news'] = 'Our News';
 			
+
+				$_['text_articles'] = 'Our Articles';
+			
 			
 $_['text_service']      = 'Служба поддержки';
 $_['text_extra']        = 'Дополнительно';

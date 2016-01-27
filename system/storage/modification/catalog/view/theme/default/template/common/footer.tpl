@@ -27,6 +27,9 @@
 				<li><a href="<?php echo $articles; ?>"><?php echo $text_articles; ?></a></li>
 			
 
+				<li><a href="<?php echo $articles; ?>"><?php echo $text_articles; ?></a></li>
+			
+
 				<li><a href="<?php echo $news; ?>"><?php echo $text_news; ?></a></li>
 			
           <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>

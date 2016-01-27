@@ -131,6 +131,9 @@ class ControllerCommonMenu extends Controller {
 
 				$data['news'] = $this->url->link('extension/news', 'token=' . $this->session->data['token'], 'SSL');	
 			
+
+				$data['articles'] = $this->url->link('extension/articles', 'token=' . $this->session->data['token'], 'SSL');	
+			
 		$data['filter'] = $this->url->link('catalog/filter', 'token=' . $this->session->data['token'], 'SSL');
 		$data['fraud'] = $this->url->link('extension/fraud', 'token=' . $this->session->data['token'], 'SSL');
 		$data['geo_zone'] = $this->url->link('localisation/geo_zone', 'token=' . $this->session->data['token'], 'SSL');
@@ -210,6 +213,14 @@ class ControllerCommonMenu extends Controller {
 			'etsy' => $this->config->get('etsy_status'),
 		);
 
+
+				/* = */
+					$this->load->model('setting/setting');
+					$data['paladin_modules']['psm'] = $this->model_setting_setting->getSetting('superseobox') ? $this->url->link('module/superseobox', 'token=' . $this->session->data['token'], 'SSL') : false;
+					$data['paladin_modules']['prm'] = $this->model_setting_setting->getSetting('prmod') ? $this->url->link('module/paladinrm', 'token=' . $this->session->data['token'], 'SSL') : false;
+					$data['paladin_modules']['psg'] = $this->model_setting_setting->getSetting('paladinSiteMapGenerator') ? 		$this->url->link('module/psmsitemapgenerator', 'token=' . $this->session->data['token'], 'SSL') : false;
+				/* = */
+				
 		return $this->load->view('common/menu.tpl', $data);
 	}
 }

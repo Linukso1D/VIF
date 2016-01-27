@@ -26,6 +26,24 @@
       
 		
       <li><a href="<?php echo $module; ?>"><?php echo $text_module; ?></a></li>
+		
+				<!-- *=* -->	
+				<li><a class="parent">Paladin's modules</a>
+					<ul>
+						<?php if($paladin_modules['psm']){ ?>
+						<li><a href="<?php echo $paladin_modules['psm']; ?>">SEO Manager</a></li>
+						<?php } ?>
+						<?php if($paladin_modules['prm']){ ?> 
+						<li><a href="<?php echo $paladin_modules['prm']; ?>">Redirect Manager</a></li>
+						<?php } ?>
+						<?php if($paladin_modules['psg']){ ?>
+						<li><a href="<?php echo $paladin_modules['psg']; ?>">Sitemap Generator</a></li>
+						<?php } ?>
+						<li><a href="http://www.opencart.com/index.php?route=extension/extension&filter_username=RomarioT">Get More</a></li>
+					</ul>
+				</li>
+				<!-- *=* -->
+				
       <li><a href="<?php echo $payment; ?>"><?php echo $text_payment; ?></a></li>
       <li><a href="<?php echo $shipping; ?>"><?php echo $text_shipping; ?></a></li>
       <li><a href="<?php echo $total; ?>"><?php echo $text_total; ?></a></li>
@@ -33,6 +51,9 @@
       <li><a href="<?php echo $feed; ?>"><?php echo $text_feed; ?></a></li>
 
 				<li><a href="<?php echo $news; ?>">News</a></li>
+			
+
+				<li><a href="<?php echo $articles; ?>">articles</a></li>
 			
       <li><a href="<?php echo $analytics; ?>"><?php echo $text_analytics; ?></a></li>
       <li><a href="<?php echo $captcha; ?>"><?php echo $text_captcha; ?></a></li>

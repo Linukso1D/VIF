@@ -111,6 +111,9 @@
             </div>
           </div>
           
+          <pre><?php var_dump($productArray); ?>
+          </pre>
+          
         </form>
       </div>
     </div>
@@ -233,6 +236,7 @@ function send(url) {
 			$('#button-send').button('reset');
 		},
 		success: function(json) {
+            console.log(json);
 			$('.alert, .text-danger').remove();
 
 			if (json['error']) {

@@ -78,7 +78,12 @@ class ControllerMarketingContact extends Controller {
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['footer'] = $this->load->controller('common/footer');
 
+        
 		$this->response->setOutput($this->load->view('marketing/contact.tpl', $data));
+        
+        
+        
+     
 	}
 
 	public function send() {
@@ -116,6 +121,8 @@ class ControllerMarketingContact extends Controller {
 
 				$this->load->model('marketing/affiliate');
 
+                $this->load->model('tool/image');
+                
 				$this->load->model('sale/order');
 
 				if (isset($this->request->get['page'])) {
@@ -147,9 +154,8 @@ class ControllerMarketingContact extends Controller {
                                 //TODO Интеграция получениея мыл бродячих пользователей
                                 $this->load->model('module/adv_newsletter');
                                 $emails_newsletter    = $this->model_module_adv_newsletter->getEmails();
-                                $results = array_merge($results, $emails_newsletter);
-                                //TODO
-						foreach ($results as $result) {
+                                
+						foreach ($emails_newsletter as $result) {
 							$emails[] = $result['email'];
 						}
 						break;
@@ -226,8 +232,8 @@ class ControllerMarketingContact extends Controller {
                             //Получение мыл
                                                     $this->load->model('module/adv_newsletter');
                                                     $emails_newsletter    = $this->model_module_adv_newsletter->getEmails();
-                                                    $results = array_merge($results, $emails_newsletter);
-                                                    foreach ($results as $result) 
+                                                  
+                                                    foreach ($emails_newsletter as $result) 
                                                     {
                                                         $emails[] = $result['email'];
                                                     }
@@ -237,14 +243,14 @@ class ControllerMarketingContact extends Controller {
                                  $res=$this->model_sale_order->getProduct($product);
                                  $productArray[]=array (
                                      'name' => $res['name'],
+                                     'href' => $_SERVER['SERVER_NAME']."/index.php?route=product/product&product_id=$product",
                                      'image' => $this->model_tool_image->resize($res['image'], 200, 128),
                                      'description' =>(mb_strlen(strip_tags(html_entity_decode($res['description'], ENT_QUOTES))) > 125 ? mb_substr(strip_tags(html_entity_decode($res['description'], ENT_QUOTES)), 0, 125) . '...' : strip_tags(html_entity_decode($res['description'], ENT_QUOTES)))
                                     );
                              }
-                            
-                            
-                            
+                          
 						}
+                         $json['test']=$productArray;
 						break;
                         
                         
@@ -266,23 +272,27 @@ class ControllerMarketingContact extends Controller {
                             $newsArray = array(
                                 'text' 		=> $news['title'],
                                 'image'			=> $this->model_tool_image->resize($news['image'], 390, 245),
-                                'description' 	=> (mb_strlen(strip_tags(html_entity_decode($news['_description'], ENT_QUOTES))) > 400 ? mb_substr(strip_tags(html_entity_decode($news['description'], ENT_QUOTES)), 0, 400) . '...' : strip_tags(html_entity_decode($news['description'], ENT_QUOTES)))
+                                'description' 	=> (mb_strlen(strip_tags(html_entity_decode($news['description'], ENT_QUOTES))) > 400 ? mb_substr(strip_tags(html_entity_decode($news['description'], ENT_QUOTES)), 0, 400) . '...' : strip_tags(html_entity_decode($news['description'], ENT_QUOTES)))
                             );
 						              }                   
                                 //TODO Интеграция получениея мыл бродячих пользователей
                                 $this->load->model('module/adv_newsletter');
                                 $emails_newsletter    = $this->model_module_adv_newsletter->getEmails();
-                                $results = array_merge($results, $emails_newsletter);
+                               
+                         
+                          
                                 //TODO
-						foreach ($results as $result) {
+						foreach ($emails_newsletter as $result) {
 							$emails[] = $result['email'];
 						}
-						break;
-                        
+						
+                        // $this->response->setOutput($this->request->post['news_id']);
                         
 				}
-
+                        break;
+                }
 				if ($emails) {
+                   
 					$start = ($page - 1) * 10;
 					$end = $start + 10;
 
@@ -323,32 +333,36 @@ class ControllerMarketingContact extends Controller {
                                     'href'     => $this->url->link('product/category', 'path=' . $category['category_id'])
                                     );
                                 }
-                    
+                
                     // витвление сообщения 25012016 
                     
-                    
-                    
-                    if(!empty($this->request->post['news_id']))
+                    $json['news']=$newsArray;
+                    $message="";
+                    if($this->request->post['to']=="news")
                     {//если  новости
-                        
+                       
+                        $json['news']=$newsArray;
+             
+                          
                     }
-                    else if(isset($this->request->post['product']))
+                    else if($this->request->post['to']=="product")
                     {// реклама продуктов
+                          $json['product']=$productArray;
                         
                         
                     }
                     else
-                    {//обычный месетдж
-                        
-                    $message  = '<html dir="ltr" lang="en">' . "\n";
-					$message .= '  <head>' . "\n";
-					$message .= '    <title>' . $this->request->post['subject'] . '</title>' . "\n";
-					$message .= '    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">' . "\n";
-					$message .= '  </head>' . "\n";
-					$message .= '  <body>' . html_entity_decode($this->request->post['message'], ENT_QUOTES, 'UTF-8') . '</body>' . "\n";
-					$message .= '</html>' . "\n";
+                    {//обычный меседж  
+                        $json[]="Обычный меседж";
+                        $message  = '<html dir="ltr" lang="en">' . "\n";
+                        $message .= '  <head>' . "\n";
+                        $message .= '    <title>' . $this->request->post['subject'] . '</title>' . "\n";
+                        $message .= '    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">' . "\n";
+                        $message .= '  </head>' . "\n";
+                        $message .= '  <body>' . html_entity_decode($this->request->post['message'], ENT_QUOTES, 'UTF-8') . '</body>' . "\n";
+                        $message .= '</html>' . "\n";
                     }
-                    
+                     
                     
                     
                     
@@ -377,15 +391,20 @@ class ControllerMarketingContact extends Controller {
 							$mail->setSender(html_entity_decode($store_name, ENT_QUOTES, 'UTF-8'));
 							$mail->setSubject(html_entity_decode($this->request->post['subject'], ENT_QUOTES, 'UTF-8'));
 							$mail->setHtml($message);
-							$mail->send();
+							//$mail->send();
 						}
 					}
+                  
+                    
+              
+                    
 				}
+               
 			}
 		}
-
-		$this->response->addHeader('Content-Type: application/json');
-		$this->response->setOutput(json_encode($json));
+            
+		        $this->response->addHeader('Content-Type: application/json');
+		        $this->response->setOutput(json_encode($json));  
 	}
 }
-}
+

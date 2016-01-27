@@ -6,6 +6,11 @@ class ControllerCommonDashboard extends Controller {
 				$results = $this->model_setting_news->getNews();
 				$data['json'] = json_decode($results['text'], true);
 			
+	
+				$this->load->model('setting/articles');
+				$results = $this->model_setting_articles->getArticles();
+				$data['json'] = json_decode($results['text'], true);
+			
 		$this->load->language('common/dashboard');
 
 		$this->document->setTitle($this->language->get('heading_title'));

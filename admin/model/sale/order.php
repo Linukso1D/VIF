@@ -441,7 +441,8 @@ class ModelSaleOrder extends Model {
 		//TODO 250116 получаем по ид продукт и картинку.
        $query = $this->db->query(" SELECT  a.`name` , p.`image` , a.`description` FROM " . DB_PREFIX . "product AS p 
        INNER JOIN " . DB_PREFIX . "product_description AS a ON p.product_id=a.product_id WHERE p.product_id=" . $product_id . ";");
+        
+        return $query->row;
 
-        return $query->rows;
-
+}
 }

@@ -22,6 +22,17 @@
 				</div>
 				<?php } ?>
 			
+
+				<?php if ($json) { ?>
+				<div class="alert alert-info">
+					<ul style="margin:0px; padding: 0px;">
+					<?php foreach ($json as $value) { ?>
+						<li style="margin: 0px 20px;"><?php echo $value['title']; ?></li>
+					<?php }	?>
+					</ul>
+				</div>
+				<?php } ?>
+			
     <?php if ($error_install) { ?>
     <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> <?php echo $error_install; ?>
       <button type="button" class="close" data-dismiss="alert">&times;</button>

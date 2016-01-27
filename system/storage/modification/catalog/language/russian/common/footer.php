@@ -1,10 +1,13 @@
 <?php
 // Text
 $_['text_information']  = 'Информация';
-$_['text_service']      = 'Служба поддержки';
+
+				$_['text_articles'] = 'Our articles';
 
 				$_['text_news'] = 'Our News';
 			
+			
+$_['text_service']      = 'Служба поддержки';
 $_['text_extra']        = 'Дополнительно';
 $_['text_contact']      = 'Обратная связь';
 $_['text_return']       = 'Возврат товара';

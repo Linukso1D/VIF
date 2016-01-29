@@ -8,7 +8,7 @@
                     <div class="box-newsletter-subscribe" id="mail-box">
                         <input type="text" name="email" placeholder="Ваш Email" style="color: black;" />
                         <span class="input-group-btn">
-                                            <button class="plr0 btn btn-brown enter-subscribe " type="button">ПОДПИСАТЬСЯ</button>
+                                            <button class="plr0 btn btn-brown enter-subscribe " type="button">Подписаться</button>
                                         </span>
                     </div>
                 </div>
@@ -33,9 +33,9 @@
 
 
                     <input type="password" name="password" value="" placeholder="Пароль" id="input-password" />
-                    <input type="submit" value="Авторизироваться" class="btn plr0 under btnUnset nothover" />
+                    <input type="submit" value="Авторизироваться" class="mgt10 btn plr0 under btnUnset nothover" />
                     <br>
-                    <a class="under" href="<?php echo $forgotten; ?>">Забыли пароль?</a>
+                    <a class="under mgt10" href="<?php echo $forgotten; ?>">Забыли пароль?</a>
 
 
                 </form>
@@ -90,7 +90,7 @@
             </div>
 
             <div class="col-md-2 ">
-                <div>
+                <div style="    margin-bottom: -9px;">
                     <label class="heading-title slab mgb15">
                         КАК НАЙТИ VIF
                     </label>
@@ -104,11 +104,13 @@
                     </div>
                 </div>
                 <!-- как найти виф -->
-                <a href="#" title="titles"><i class="fa fa-instagram fsize28" ></i></a>
-                <a href="#" title="titles"><i class="fa fa-google-plus fsize28" ></i></a>
-                <a href="#" title="titles"><i class="fa fa-twitter fsize28" ></i></a>
-                <a href="#" title="titles"><i class="fa fa-vk fsize28"></i></a>
-                <a href="#" title="titles"><i class="fa fa-facebook fsize28" ></i></a>
+                <div class="fsize28">
+                <a href="#" title="titles"><i class="fa fa-instagram " ></i></a>
+                <a href="#" title="titles"><i class="fa fa-google-plus " ></i></a>
+                <a href="#" title="titles"><i class="fa fa-twitter " ></i></a>
+                <a href="#" title="titles"><i class="fa fa-vk "></i></a>
+                <a href="#" title="titles"><i class="fa fa-facebook " ></i></a>
+                </div>
                 <p>2016 &copy; Divotek</p>
             </div>
         </div>

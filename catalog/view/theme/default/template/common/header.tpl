@@ -115,7 +115,7 @@
  <div class="row">
      <div class="col-md-3"></div>
      <div class="col-md-5">
-         <nav id="menu" class="navbar">
+    <nav id="menu" class="navbar">
                     <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
                       <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
                     </div>
@@ -123,7 +123,7 @@
       <ul class="nav navbar-nav">
         <?php foreach ($categories as $category) { ?>
         <?php if ($category['children']) { ?>
-        <li class="wh upper dropdown"><a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
+        <li class="wh upper dropdown"><a href="<?php echo $category['href']; ?>" class="dropdown-toggle slab" data-toggle="dropdown"><?php echo $category['name']; ?> <i class="fa fa-angle-down"></i></a>
           <div class="dropdown-menu">
             <div class="dropdown-inner">
               <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
@@ -137,7 +137,7 @@
             <a class="upper" href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
         </li>
         <?php } else { ?>
-        <li><a class="wh upper" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+        <li><a class="wh upper slab" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
         <?php } ?>
         <?php } ?>
       </ul>
@@ -145,7 +145,7 @@
   </nav>
          
      </div>
-     <div class="col-md-4">
+     <div class="col-md-4" style="max-height:25px;  padding-top: 5px;">
         <?php echo $search; ?>    
      
 

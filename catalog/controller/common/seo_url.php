@@ -9,6 +9,13 @@ class ControllerCommonSeoUrl extends Controller {
 		// Decode URL
 		if (isset($this->request->get['_route_'])) {
 			$parts = explode('/', $this->request->get['_route_']);
+            if ($parts[0] == 'news' || $parts[0] == 'articles') {
+                $tmp = $parts[0];
+                foreach ($parts as  $key => $a)
+                    if ($key)
+                        $tmp .= '/'.$a;
+                $parts = array($tmp);
+            }
 			// remove any empty arrays from trailing
 			if (utf8_strlen(end($parts)) == 0) {
 				array_pop($parts);

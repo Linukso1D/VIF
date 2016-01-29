@@ -58,6 +58,7 @@ $data['entry_email'] = $this->language->get('entry_email');
         //news
         $this->language->load('module/news');
 		$this->load->model('extension/news');
+		$this->load->model('tool/image');
 		
 		$filter_data = array(
 			'page' => 1,

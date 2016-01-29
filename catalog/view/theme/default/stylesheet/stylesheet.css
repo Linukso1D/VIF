@@ -236,7 +236,7 @@ div.required .control-label:before {
 #menu .nav > li > a {
 	color: #fff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	padding: 10px 15px 10px 15px;
+	padding: 10px 10px 0px 10px;
 	min-height: 15px;
 	background-color: transparent;
 }
@@ -415,7 +415,7 @@ footer h5 {
 	margin: 1em 0;
 }
 .btn {
-	padding: 7.5px 12px;
+	padding: 5px 12px;
 	font-size: 12px;
 	border: 1px solid #cccccc;
 	border-radius: 4px;
@@ -855,6 +855,10 @@ h2.price {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.mgt10
+{
+    margin-top: 10px;
+}
 
 
 
@@ -883,10 +887,16 @@ h2.price {
 {
     font-style: oblique;
 }
-.fsize28
+.fsize28 >a
 {
     font-size: 13pt;
     margin: 0px 7px;
+}
+
+.fsize28 >a:first-child
+{
+    
+    margin-left: 0px;
 }
 
 .Pname >p 
@@ -958,9 +968,11 @@ display:block;
     bottom: 40%;
     
 }
+
 .fs14
 {
      font-size: 14pt;
+    
 }
 .homecategory
 {
@@ -996,7 +1008,18 @@ display:block;
     font-family: sans-serif;
     line-height: 50px;
 }
-
+.navbar 
+{
+    margin-bottom: 0px;
+}
+.input-sm
+{
+    height: 20px;
+}
+input
+{
+    height: 20px;
+}
 
 
 

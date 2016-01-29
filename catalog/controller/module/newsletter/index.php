@@ -18,7 +18,7 @@ class ControllerModuleNewsletterIndex extends Controller
             // Exist email in the system
             echo json_encode(array(
                 'error' => 1,
-                'msg'   => 'Email is not valid.'
+                'msg'   => 'Email не корректен.'
             ));
             return true;
         }
@@ -47,7 +47,7 @@ class ControllerModuleNewsletterIndex extends Controller
                     // Exist email in the system
                     echo json_encode(array(
                         'error' => 1,
-                        'msg'   => 'You had submitted to get newsletter with this email.'
+                        'msg'   => 'Вы уже подписаны на рассылку новостей.'
                     ));
                     return true;
                 }
@@ -80,7 +80,7 @@ class ControllerModuleNewsletterIndex extends Controller
 
         echo json_encode(array(
             'error' => 0,
-            'msg'   => 'Thanks for submitted to get newsletter of our store.'
+            'msg'   => 'Вы подписались на рассылку.'
         ));
         return true;
     }

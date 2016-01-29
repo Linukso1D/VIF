@@ -43,5 +43,10 @@ new AdvancedNewsletter({
     input_id: 'input[name=email]',
     submit_id: '.enter-subscribe'
 });
+new AdvancedNewsletter({
+    container_id: '#advanced-newsletter-box1',
+    input_id: 'input[name=email]',
+    submit_id: '.enter-subscribe'
+});
 
 

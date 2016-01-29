@@ -6,8 +6,8 @@
  * Time: 00:26
  */
 // Heading
-$_['heading_title']    = 'NEWSLETTER';
+$_['heading_title']    = 'ОФОРМИТЬ ПОДПИСКУ';
 
 // Text
-$_['text_button_submit']    = 'OK';
-$_['text_placeholder_input']    = 'Your Email Address';
+$_['text_button_submit']    = 'Подписаться';
+$_['text_placeholder_input']    = 'Ваш Email';

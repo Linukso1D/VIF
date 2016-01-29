@@ -36,11 +36,6 @@ class ControllerCommonSeoUrl extends Controller {
 				}	
 			
 
-				if ($url[0] == 'articles_id') {
-					$this->request->get['articles_id'] = $url[1];
-				}	
-			
-
 				if ($url[0] == 'news_id') {
 					$this->request->get['news_id'] = $url[1];
 				}	
@@ -52,12 +47,12 @@ class ControllerCommonSeoUrl extends Controller {
 				if ($url[0] == 'articles_id') {
 					$this->request->get['articles_id'] = $url[1];
 				}	
-                    if ($url[0] == 'news_id') {
+                if ($url[0] == 'news_id') {
 					$this->request->get['news_id'] = $url[1];
 				}	
 					
 	/////////////////				
-					if ($query->row['query'] && $url[0] != 'information_id' && $url[0] != 'manufacturer_id' && $url[0] != 'category_id' && $url[0] != 'product_id'  && $url[0] != 'articles_id'&& $url[0] != 'news_id') {
+					if ($query->row['query'] && $url[0] != 'information_id' && $url[0] != 'manufacturer_id' && $url[0] != 'category_id' && $url[0] != 'product_id'  && $url[0] != 'articles_id' && $url[0] != 'news_id') {
                         
 						$this->request->get['route'] = $query->row['query'];
 					}
@@ -74,10 +69,6 @@ class ControllerCommonSeoUrl extends Controller {
 					$this->request->get['route'] = 'product/category';
 				} elseif (isset($this->request->get['manufacturer_id'])) {
 					$this->request->get['route'] = 'product/manufacturer/info';
-
-				} elseif (isset($this->request->get['articles_id'])) {
-					$this->request->get['route'] = 'information/articles/articles';
-			
 
 				} elseif (isset($this->request->get['articles_id'])) {
 					$this->request->get['route'] = 'information/articles/articles';

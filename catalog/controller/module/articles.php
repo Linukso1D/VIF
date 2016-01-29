@@ -6,7 +6,7 @@ class ControllerModuleArticles extends Controller {
 		
 		$filter_data = array(
 			'page' => 1,
-			'limit' => 5,
+			'limit' => 4,
 			'start' => 0,
 		);
 	 
@@ -16,10 +16,12 @@ class ControllerModuleArticles extends Controller {
 	 
 		$data['all_articles'] = array();
 	 
+        $this->load->model('tool/image');
 		foreach ($all_articles as $articles) {
 			$data['all_articles'][] = array (
 				'title' 		=> html_entity_decode($articles['title'], ENT_QUOTES),
-				'description' 	=> (strlen(strip_tags(html_entity_decode($articles['short_description'], ENT_QUOTES))) > 50 ? substr(strip_tags(html_entity_decode($articles['short_description'], ENT_QUOTES)), 0, 50) . '...' : strip_tags(html_entity_decode($articles['short_description'], ENT_QUOTES))),
+                'image'			=> $this->model_tool_image->resize($articles['image'], 350, 116),
+				'description' 	=> (mb_strlen(strip_tags(html_entity_decode($articles['short_description'], ENT_QUOTES))) > 140 ? mb_substr(strip_tags(html_entity_decode($articles['short_description'], ENT_QUOTES)), 0, 140) . '...' : strip_tags(html_entity_decode($articles['short_description'], ENT_QUOTES))),
 				'view' 			=> $this->url->link('information/articles/articles', 'articles_id=' . $articles['articles_id']),
 				'date_added' 	=> date($this->language->get('date_format_short'), strtotime($articles['date_added']))
 			);

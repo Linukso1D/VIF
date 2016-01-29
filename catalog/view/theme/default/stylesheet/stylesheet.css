@@ -1,5 +1,5 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 400;
 	color: #666;
 	font-size: 12px;
@@ -33,7 +33,7 @@ h6 {
 	font-size: 10.2px;
 }
 a {
-	color: #23a1d1;
+	color: #313131;
 }
 a:hover {
 	text-decoration: none;
@@ -46,7 +46,47 @@ label {
 	font-size: 12px;
 	font-weight: normal;
 }
+
+/*------------------------------*/
+.headlink
+{
+    text-align: center;
+        padding: 6px 12px;
+    
+}
+.headlink>a
+{
+    padding: 0 20px;
+}
+.upper
+{
+    text-transform: uppercase;
+}
+.wh
+{
+    color:white;
+}
+.wh a
+{
+    color:white;
+}
+.btnUnset
+{
+    background: none;
+    border: none;
+}
+
+
+
+
+
+
+
+/*------------------------------*/
+
+
 select.form-control, textarea.form-control, input[type="text"].form-control, input[type="password"].form-control, input[type="datetime"].form-control, input[type="datetime-local"].form-control, input[type="date"].form-control, input[type="month"].form-control, input[type="time"].form-control, input[type="week"].form-control, input[type="number"].form-control, input[type="email"].form-control, input[type="url"].form-control, input[type="search"].form-control, input[type="tel"].form-control, input[type="color"].form-control {
+    border-radius: 0px;
 	font-size: 12px;
 }
 .input-group input, .input-group select, .input-group .dropdown-menu, .input-group .popover {
@@ -79,10 +119,10 @@ div.required .control-label:before {
 }
 /* top */
 #top {
-	background-color: #EEEEEE;
+	background-color: #462626;
 	border-bottom: 1px solid #e2e2e2;
 	padding: 4px 0px 3px 0;
-	margin: 0 0 20px 0;
+	margin: 0 0 0px 0;
 	min-height: 40px;
 }
 #top .container {
@@ -190,10 +230,7 @@ div.required .control-label:before {
 }
 /* menu */
 #menu {
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
-	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
+	background-color: #462626;
 	min-height: 40px;
 }
 #menu .nav > li > a {
@@ -311,16 +348,17 @@ div.required .control-label:before {
 footer {
 	margin-top: 30px;
 	padding-top: 30px;
-	background-color: #303030;
+	background-color: #462626;;
 	border-top: 1px solid #ddd;
 	color: #e2e2e2;
+    padding-bottom: 30px;
 }
 footer hr {
 	border-top: none;
 	border-bottom: 1px solid #666;
 }
 footer a {
-	color: #ccc;
+	color: #ffffff;
 }
 footer a:hover {
 	color: #fff;
@@ -381,7 +419,7 @@ footer h5 {
 	font-size: 12px;
 	border: 1px solid #cccccc;
 	border-radius: 4px;
-	box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	
 }
 .btn-xs {
 	font-size: 9px;
@@ -745,3 +783,254 @@ h2.price {
     background-image: none;
     background-color: #df5c39;
 }
+
+/*------------------------------*/
+.headlink
+{
+    text-align: center;
+        padding: 6px 12px;
+    
+}
+.headlink>a
+{
+    padding: 0 20px;
+}
+.upper
+{
+    text-transform: uppercase;
+}
+.wh
+{
+    color:white;
+}
+.wh a
+{
+    color:white;
+}
+.btnUnset
+{
+    background: none;
+    border: none;
+}
+.under
+{
+    text-decoration: underline;
+}
+.center
+{
+    text-align: center;
+}
+.CLbrown
+{
+    background: #462626;
+}
+
+
+
+/*Про нас*/
+.contentstate
+{
+    padding-left: 30px;
+    font-size: 12pt;
+    line-height: 35px;
+    margin-top: 20px;
+}
+.headstate
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16pt;
+    color:#462626
+}
+
+/*------------------------------*/
+
+.plr0
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.ptb10
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+.nothover
+{
+    color: white;
+    border: none;
+}
+.nothover:hover
+{
+    color: white;
+    border: none;
+}
+.mgb15
+{
+    margin-bottom: 15px;
+    
+}
+
+.slab
+{
+    font-family: 'Roboto Slab', serif;
+}
+.heading-title
+{
+    font-style: oblique;
+}
+.fsize28
+{
+    font-size: 13pt;
+    margin: 0px 7px;
+}
+
+.Pname >p 
+{
+    font-size: 15pt;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.prHover:hover
+{
+   
+    
+}
+.prHover 
+{
+min-height: 280px;
+    
+}
+.prHover > p
+{
+display: none;
+    
+}
+.prHover:hover .Pname
+{
+    display: none;
+}
+.thetestt
+{
+    
+display:block;
+   
+  height:320px; 
+
+
+}
+
+.thetestt:before
+{
+    content: "";
+    opacity: 0;
+    background: #462626;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.thetestt:hover:before
+{
+        transition: .3s;
+    opacity: 0.5;
+}
+.textfeature
+{
+    font-size: 14pt;
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    color:black;
+}
+
+.thetestt:hover .textfeature
+{
+    transition: .3s;
+    color: white;
+    bottom: 40%;
+    
+}
+.fs14
+{
+     font-size: 14pt;
+}
+.homecategory
+{
+    background-color: #f5f5f5;
+}
+
+ .browncategory
+{
+    margin:20px 0px;
+    text-align:center;
+    padding:  20px 0px 0px;
+    background-color: #ffffff;
+  
+}
+.btnbrown
+{
+    height: 50px;
+    color: #555555;
+    text-transform: uppercase;
+    font: 400 14px / 30px RobotoCondensed;
+    font-family: sans-serif;
+    line-height: 50px;
+}
+ .browncategory:hover .btnbrown
+{
+    transition: .3s;
+    width: 100%;
+    height: 50px ;
+    background-color: #462626;
+    color: #ffffff;
+    text-transform: uppercase;
+    font: 400 14px / 30px RobotoCondensed;
+    font-family: sans-serif;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

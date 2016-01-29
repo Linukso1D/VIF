@@ -2,7 +2,7 @@
 class ControllerCommonFooter extends Controller {
 	public function index() {
 		$this->load->language('common/footer');
-
+$this->load->language('account/login');
 		$data['scripts'] = $this->document->getScripts('footer');
 
 		$data['text_information'] = $this->language->get('text_information');
@@ -19,7 +19,7 @@ class ControllerCommonFooter extends Controller {
 		$data['text_order'] = $this->language->get('text_order');
 		$data['text_wishlist'] = $this->language->get('text_wishlist');
 		$data['text_newsletter'] = $this->language->get('text_newsletter');
-
+$data['entry_email'] = $this->language->get('entry_email');
 		$this->load->model('catalog/information');
 
 		$data['informations'] = array();
@@ -32,7 +32,7 @@ class ControllerCommonFooter extends Controller {
 				);
 			}
 		}
-
+        $data['home'] = $this->url->link('common/home');
 		$data['contact'] = $this->url->link('information/contact');
 		$data['return'] = $this->url->link('account/return/add', '', 'SSL');
 		$data['sitemap'] = $this->url->link('information/sitemap');
@@ -44,9 +44,56 @@ class ControllerCommonFooter extends Controller {
 		$data['order'] = $this->url->link('account/order', '', 'SSL');
 		$data['wishlist'] = $this->url->link('account/wishlist', '', 'SSL');
 		$data['newsletter'] = $this->url->link('account/newsletter', '', 'SSL');
+        $data['action'] = $this->url->link('account/login', '', 'SSL');
+        $data['forgotten'] = $this->url->link('account/forgotten', '', 'SSL');
+        
+        
+        
 
 		$data['powered'] = sprintf($this->language->get('text_powered'), $this->config->get('config_name'), date('Y', time()));
+        
+        
+        
+        
+        //news
+        $this->language->load('module/news');
+		$this->load->model('extension/news');
+		
+		$filter_data = array(
+			'page' => 1,
+			'limit' => 5,
+			'start' => 0,
+		);
+	 
+		$data['heading_title'] = $this->language->get('heading_title');
+	 
+		$all_news = $this->model_extension_news->getAllNews($filter_data);
+	 
+		$data['all_news'] = array();
+	 
+		foreach ($all_news as $news) {
+			$data['all_news'][] = array (
+				'title' 		=> html_entity_decode($news['title'], ENT_QUOTES),
+                'image'			=> $this->model_tool_image->resize($news['image'], 170, 71),
+				'link' 			=> $this->url->link('information/news/news', 'news_id=' . $news['news_id']),
+				'date_added' 	=> date($this->language->get('date_format_short'), strtotime($news['date_added']))
+			);
+		}
+        //news
+       $this->load->model('localisation/location');
+       $data['address'] = nl2br($this->config->get('config_address'));
 
+        
+
+        if ($this->request->server['HTTPS']) {
+			$server = $this->config->get('config_ssl');
+		} else {
+			$server = $this->config->get('config_url');
+		}
+        if (is_file(DIR_IMAGE . $this->config->get('config_logo'))) {
+			$data['logo'] = $server . 'image/' . $this->config->get('config_logo');
+		} 
+        
 		// Whos Online
 		if ($this->config->get('config_customer_online')) {
 			$this->load->model('tool/online');

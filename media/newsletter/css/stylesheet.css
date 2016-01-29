@@ -1,3 +1,9 @@
+#advanced-newsletter-box1 {
+    background-image: url(../image/envelope-border.png);
+    background-repeat: repeat-x;
+    background-size: 40px 3px;
+    padding: 10px 0;
+}
 #advanced-newsletter-box {
     background-image: url(../image/envelope-border.png);
     background-repeat: repeat-x;
@@ -6,9 +12,8 @@
 }
 #advanced-newsletter-box .heading-title {
     text-transform: uppercase;
-    font-size: 16px;
+    /*font-size: 16px;*/
     list-style: none;
-    font-weight: bold;
     margin-bottom: 8px;
 }
 #advanced-newsletter-box #mail-box {
@@ -25,7 +30,20 @@
     color: #fff;
     height: 30px;
     border-radius: 0;
-    background: #ff3366;
+    background: rgba(255, 51, 102, 0);
     border: none;
     outline: none;
+}
+#advanced-newsletter-box1 #mail-box .btn {
+
+    color: #fff;
+    height: 30px;
+    border-radius: 0;
+    background: rgba(255, 51, 102, 0);
+    border: none;
+    outline: none;
+}
+.enter-subscribe
+{
+    text-decoration: underline;
 }

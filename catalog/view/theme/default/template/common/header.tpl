@@ -22,7 +22,11 @@
 <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+<link href="media/newsletter/css/stylesheet.css" rel="stylesheet">
+<script src="media/newsletter/js/main.js" type="text/javascript"></script>
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
@@ -40,10 +44,51 @@
 <body class="<?php echo $class; ?>">
 <nav id="top">
   <div class="container">
-    <?php echo $currency; ?>
-    <?php echo $language; ?>
-    <div id="top-links" class="nav pull-right">
-      <ul class="list-inline">
+    <!-- TOP LINKS --> 
+    <div class="row">
+        <div class="col-xs-4 col-md-3"></div>
+        <div class="col-xs-12 col-md-5 wh headlink">
+           <a class="upper" href="/o-nas.html">О компании</a>
+           <a class="upper" href="/news">Новости</a>
+           <a class="upper" href="/articles">Отзывы</a>
+           <a class="upper" href="<?php echo $contact; ?>">Контакты</a> 
+        </div>
+        <div class="col-xs-12 col-md-4">
+                   
+                 <div id="advanced-newsletter-box" style="padding:0px;">
+                        <div class="input-group box-newsletter-subscribe" id="mail-box">
+                            <input type="text" name="email" placeholder="Ваш Email"/>
+                            <span class="input-group-btn">
+                            <button class="btn btn-brown enter-subscribe" type="button">ПОДПИСАТЬСЯ</button>
+                            </span>
+                        </div>
+                    </div>
+
+        </div>
+    </div>
+    <!-- image -->
+    <div class="row">
+        <div class="col-xs-4"></div>
+        <div class="col-xs-4">
+                 <div id="logo">
+                  <?php if ($logo) { ?>
+                  <a href="<?php echo $home; ?>"><img style="margin: auto;" src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
+                  <?php } else { ?>
+                  <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
+                  <?php } ?>
+                </div>
+        </div>
+        <div class="col-xs-4"></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+     <!--  <ul class="list-inline">
         <li><a href="<?php echo $contact; ?>"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md"><?php echo $telephone; ?></span></li>
         <li class="dropdown"><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_account; ?></span> <span class="caret"></span></a>
           <ul class="dropdown-menu dropdown-menu-right">
@@ -60,41 +105,25 @@
           </ul>
         </li>
         <li><a href="<?php echo $wishlist; ?>" id="wishlist-total" title="<?php echo $text_wishlist; ?>"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_wishlist; ?></span></a></li>
-     <!--   <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
-        <li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_checkout; ?></span></a></li> -->
-      </ul>
-    </div>
-  </div>
-</nav>
-<header>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div id="logo">
-          <?php if ($logo) { ?>
-          <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
-          <?php } else { ?>
-          <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-          <?php } ?>
-        </div>
-      </div>
-      <div class="col-sm-5"><?php echo $search; ?>
-      </div>
-      <div class="col-sm-3"><!-- <?php echo $cart; ?> --></div>
-    </div>
-  </div>
-</header>
-<?php if ($categories) { ?>
-<div class="container">
-  <nav id="menu" class="navbar">
-    <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
-      <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
-    </div>
+       <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+        <li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_checkout; ?></span></a></li>
+      </ul> -->
+   
+    <?php if ($categories) { ?>
+<!-- MENU -->
+ 
+ <div class="row">
+     <div class="col-md-3"></div>
+     <div class="col-md-5">
+         <nav id="menu" class="navbar">
+                    <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
+                      <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
+                    </div>
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
         <?php foreach ($categories as $category) { ?>
         <?php if ($category['children']) { ?>
-        <li class="dropdown"><a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
+        <li class="wh upper dropdown"><a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
           <div class="dropdown-menu">
             <div class="dropdown-inner">
               <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
@@ -105,14 +134,39 @@
               </ul>
               <?php } ?>
             </div>
-            <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
+            <a class="upper" href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
         </li>
         <?php } else { ?>
-        <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+        <li><a class="wh upper" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
         <?php } ?>
         <?php } ?>
       </ul>
     </div>
   </nav>
-</div>
+         
+     </div>
+     <div class="col-md-4">
+        <?php echo $search; ?>    
+     
+
+
+         
+     </div>
+ </div>
+ 
+  
+
 <?php } ?>
+   
+   
+  </div>
+</nav>
+<header>
+ 
+  
+  
+  
+   
+  
+</header>
+

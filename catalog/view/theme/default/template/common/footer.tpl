@@ -1,4 +1,5 @@
-<footer>
+</div>
+   <footer id="footer">
     <div class="container">
         <div class="row">
             <div class="col-md-2">
@@ -96,7 +97,7 @@
                     </label>
                     <div style="position:relative;">
                        <div>
-                        <img src="image/map.png" alt="">
+                        <img src="image/catalog/map.png" alt="">
                         </div>
                         <div style="position:absolute;top: 0px;    line-height: 30px;">
                             <p><?php echo $data['address']; ?></p>

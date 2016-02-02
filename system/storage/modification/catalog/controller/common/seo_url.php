@@ -1,14 +1,16 @@
 <?php // ==========================================  seo_url.php v.200515 opencart-russia.ru ===============================
 class ControllerCommonSeoUrl extends Controller {
 	public function index() {
+        
 		// Add rewrite to url class
 		if ($this->config->get('config_seo_url')) {
 			$this->url->addRewrite($this);
 		}
-		
+		 
 		// Decode URL
 		if (isset($this->request->get['_route_'])) {
 			$parts = explode('/', $this->request->get['_route_']);
+           
             if ($parts[0] == 'news' || $parts[0] == 'articles') {
                 $tmp = $parts[0];
                 foreach ($parts as  $key => $a)
@@ -21,6 +23,7 @@ class ControllerCommonSeoUrl extends Controller {
 				array_pop($parts);
 			}
 			foreach ($parts as $part) {
+                
 				$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "url_alias WHERE keyword = '" . $this->db->escape($part) . "'");
 				if ($query->num_rows) {
 					$url = explode('=', $query->row['query']);
@@ -57,11 +60,13 @@ class ControllerCommonSeoUrl extends Controller {
                 if ($url[0] == 'news_id') {
 					$this->request->get['news_id'] = $url[1];
 				}	
-					
-	/////////////////				
+                
+                    
+				
 					if ($query->row['query'] && $url[0] != 'information_id' && $url[0] != 'manufacturer_id' && $url[0] != 'category_id' && $url[0] != 'product_id'  && $url[0] != 'articles_id' && $url[0] != 'news_id') {
                         
 						$this->request->get['route'] = $query->row['query'];
+                       
 					}
 					
 				} else {
@@ -92,8 +97,10 @@ class ControllerCommonSeoUrl extends Controller {
 					$this->request->get['route'] = 'information/news/news';
 					}
 			}
+            
 			if (isset($this->request->get['route'])) {
-				return new Action($this->request->get['route']);
+
+                return new Action($this->request->get['route']);
 			}
 			
 		  // Redirect 301	
@@ -134,8 +141,11 @@ class ControllerCommonSeoUrl extends Controller {
 				$this->response->redirect($arg, 301);
 			} 
 		}
+        
+        
 	}
 	public function rewrite($link) {
+
 		$url_info = parse_url(str_replace('&amp;', '&', $link));
 		$url = '';
 		$data = array();
@@ -143,6 +153,7 @@ class ControllerCommonSeoUrl extends Controller {
 		foreach ($data as $key => $value) {
 			if (isset($data['route'])) {
 				if (($data['route'] == 'information/news/news' && $key == 'news_id') || ($data['route'] == 'information/articles/articles' && $key == 'articles_id') || ($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+                 
 					$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "url_alias WHERE `query` = '" . $this->db->escape($key . '=' . (int)$value) . "'");
 					if ($query->num_rows && $query->row['keyword']) {
 						$url .= '/' . $query->row['keyword'];
@@ -153,8 +164,11 @@ class ControllerCommonSeoUrl extends Controller {
 					foreach ($categories as $category) {
 						$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "url_alias WHERE `query` = 'category_id=" . (int)$category . "'");
 						if ($query->num_rows && $query->row['keyword']) {
+                              
+                       
 							$url .= '/' . $query->row['keyword'];
 						} else {
+                           
 							$url = '';
 							break;
 						}
@@ -164,6 +178,7 @@ class ControllerCommonSeoUrl extends Controller {
 					$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "url_alias WHERE `query` = '" . $this->db->escape($data['route']) . "'");
 					if ($query->num_rows) /**/ {
 						$url .= '/' . $query->row['keyword'];
+
 						unset($data[$key]);
 					}
 				}

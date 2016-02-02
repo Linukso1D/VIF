@@ -15,7 +15,7 @@
     <?php } ?>
    <div class="news_list_style">
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-      <h2>Применение фанеры</h2>
+      <h2>Отызывы</h2>
       <hr class="hrprdct" style="width:100%;margin-left:0%;margin-bottom:20px;margin-top:15px;">
       
       

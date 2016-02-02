@@ -6,7 +6,48 @@
 			.mfilter-counter:after {
 				border-right-color: #428bca;
 			}
-		
+		.mfilter-col-input
+{
+display:none;
+}
+.mfilter-counter
+{
+display:none;
+}
+.mfilter-tb-as-td
+{
+padding-left:6px;
+    color: #c6c6c6;
+}
+.mfilter-tb-as-td:hover
+{
+    color: #462626;
+cursor:pointer;
+}
+.mfilter-heading
+{
+display:none;
+}
+.box-heading
+{
+display:none;
+}
+.mfilter-opts-container {
+
+   border-top: none;
+}
+.mfilter-content {
+border: none;
+    border-bottom: 1px solid #DDDDDD;
+    border-radius: 0px;
+}
+.mfilter-counter.mfilter-close:hover {
+    display:none;
+}
+.mfilter-counter.mfilter-close {
+    display:none;
+}
+
 				.mfilter-search #mfilter-opts-search_button {
 					background-color: #428bca;
 				}

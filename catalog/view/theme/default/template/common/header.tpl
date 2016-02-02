@@ -41,6 +41,7 @@
 <?php echo $analytic; ?>
 <?php } ?>
 </head>
+<div id="wrap">
 <body class="<?php echo $class; ?>">
 <nav id="top">
   <div class="container">
@@ -134,7 +135,7 @@
               </ul>
               <?php } ?>
             </div>
-            <a class="upper" href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
+             </div>
         </li>
         <?php } else { ?>
         <li><a class="wh upper slab" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>

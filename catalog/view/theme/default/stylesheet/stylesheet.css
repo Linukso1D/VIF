@@ -60,10 +60,13 @@ h6 {
     font-size: 10.2px;
 }
 a {
-    color: #313131;
+   
+    color: #462626;
 }
 a:hover {
-    text-decoration: none;
+    color: #462626;
+    text-decoration: underline;
+
 }
 legend {
     font-size: 18px;
@@ -369,6 +372,7 @@ div.required .control-label:before {
     #menu .dropdown:hover .dropdown-menu {
         display: block;
     }
+    
 }
 @media (max-width: 767px) {
     #menu {
@@ -672,8 +676,8 @@ footer h5 {
 /* product list */
 
 .product-thumb {
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
+    position: relative;
+    border: 1px solid #DDD;
     overflow: auto;
 }
 .product-thumb .image {
@@ -703,7 +707,6 @@ footer h5 {
 }
 .product-thumb .caption {
     padding: 0 20px;
-    min-height: 180px;
 }
 .product-list .product-thumb .caption {
     margin-left: 230px;
@@ -761,8 +764,8 @@ h2.price {
     display: block;
 }
 .product-thumb .button-group {
-    border-top: 1px solid #ddd;
-    background-color: #eee;
+  
+
     overflow: auto;
 }
 .product-list .product-thumb .button-group {
@@ -774,26 +777,43 @@ h2.price {
     }
 }
 .product-thumb .button-group button {
-    width: 60%;
-    border: none;
-    display: inline-block;
-    float: left;
-    background-color: #eee;
-    color: #888;
-    line-height: 38px;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
+    width: 48%;
+    color: #462626 ;
+    background: #ffffff ;
+    padding: 7px 16px;
+    -webkit-border-radius: 0 ;
+    -moz-border-radius: 0 ;
+    border-radius: 0 ;
+    text-shadow: none ;
+    border: 1px solid #462626 ;
+    -webkit-box-shadow: none ;
+    -moz-box-shadow: none ;
+    box-shadow: none ;
+    -webkit-transition: all 0.3s ease ;
+    -moz-transition: all 0.3s ease ;
+    -o-transition: all 0.3s ease ;
+    transition: all 0.3s ease ;
+    margin-left: 2px ;
+    white-space: nowrap ;
+    line-height: 20px ;
+    
+   
+    
 }
 .product-thumb .button-group button + button {
-    width: 20%;
-    border-left: 1px solid #ddd;
+    width: 49%;
+ 
 }
 .product-thumb .button-group button:hover {
-    color: #444;
-    background-color: #ddd;
-    text-decoration: none;
-    cursor: pointer;
+   border: 1px solid #462626 ;
+    color: #ffffff ;
+    -webkit-transition: all 0.3s ease ;
+    -moz-transition: all 0.3s ease ;
+    -o-transition: all 0.3s ease ;
+    transition: all 0.3s ease ;
+    text-decoration: none ;
+    background-color: #462626 ;
+    
 }
 @media (max-width: 1200px) {
     .product-thumb .button-group button,
@@ -1029,7 +1049,17 @@ h2.price {
     bottom: 10%;
     color: black;
 }
-.thetestt:hover .textfeature {
+.thetestt:hover .textfeature i {
+    transition: .3s;
+    color: white;
+    bottom: 40%;
+}
+.thetestt:hover .textfeature  {
+    transition: .3s;
+    color: white;
+    bottom: 40%;
+}
+.thetestt:hover .textfeature a {
     transition: .3s;
     color: white;
     bottom: 40%;
@@ -1125,6 +1155,7 @@ input {
     margin-left: 2px ;
     white-space: nowrap ;
     line-height: 20px ;
+    
 }
 
 .btn-brown:hover {
@@ -1170,15 +1201,20 @@ input {
     text-decoration: none ;
     background-color: #462626; ;
 }
-
-
-
-
-
 .slidebtn {
     position: absolute;
     margin-top: 20px;
         bottom: 40px;
     right: 0px;
 }
+.caption
+{
+bottom: 10px;
+    text-align: center;
+}
 
+#content > .row
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}

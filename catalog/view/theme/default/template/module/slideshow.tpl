@@ -15,7 +15,7 @@
 <script type="text/javascript"><!--
 $('#slideshow0').owlCarousel({
 	items: 6,
-	autoPlay: 50000,
+	autoPlay: 3000,
 	singleItem: true,
 	navigation: false,
 	pagination: true

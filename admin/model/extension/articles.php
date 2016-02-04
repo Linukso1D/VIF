@@ -1,7 +1,7 @@
 <?php
 class ModelExtensionArticles extends Model {
 	public function addArticles($data) {
-		$this->db->query("INSERT INTO " . DB_PREFIX . "articles SET image = '" . $this->db->escape($data['image']) . "', date_added = NOW(), status = '" . (int)$data['status'] . "'");
+		$this->db->query("INSERT INTO " . DB_PREFIX . "articles SET image = '" . $this->db->escape($data['image']) . "', ava = '" . $this->db->escape($data['ava']) . "', date_added = NOW(), status = '" . (int)$data['status'] . "'");
 		
 		$articles_id = $this->db->getLastId();
 		
@@ -15,7 +15,7 @@ class ModelExtensionArticles extends Model {
 	}
 	
 	public function editArticles($articles_id, $data) {
-		$this->db->query("UPDATE " . DB_PREFIX . "articles SET image = '" . $this->db->escape($data['image']) . "', status = '" . (int)$data['status'] . "' WHERE articles_id = '" . (int)$articles_id . "'");
+		$this->db->query("UPDATE " . DB_PREFIX . "articles SET image = '" . $this->db->escape($data['image']) . "', ava = '" . $this->db->escape($data['ava']) . "', status = '" . (int)$data['status'] . "' WHERE articles_id = '" . (int)$articles_id . "'");
 		
 		$this->db->query("DELETE FROM " . DB_PREFIX . "articles_description WHERE articles_id = '" . (int)$articles_id. "'");
 		

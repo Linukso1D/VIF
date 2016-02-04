@@ -226,6 +226,16 @@ class ControllerExtensionArticles extends Controller {
 		} else {
 			$data['image'] = '';
 		}
+        //article ava
+        if (isset($this->request->post['ava'])) {
+			$data['ava'] = $this->request->post['ava'];
+		} elseif (!empty($articles)) {
+			$data['ava'] = $articles['ava'];
+		} else {
+			$data['ava'] = '';
+		}
+        //
+        
 		
 		$this->load->model('tool/image');
 		
@@ -236,6 +246,16 @@ class ControllerExtensionArticles extends Controller {
 		} else {
 			$data['thumb'] = $this->model_tool_image->resize('no_image.png', 100, 100);;
 		}
+        
+        //articles ava thumb
+        if (isset($this->request->post['ava'])) {
+			$data['thumbava'] = $this->model_tool_image->resize($this->request->post['ava'], 100, 100);
+		} elseif (!empty($articles)) {
+			$data['thumbava'] = $this->model_tool_image->resize($articles['ava'] ? $articles['ava'] : 'no_image.png', 100, 100);
+		} else {
+			$data['thumbava'] = $this->model_tool_image->resize('no_image.png', 100, 100);;
+		}
+        //
 		
 		$data['no_image'] = $this->model_tool_image->resize('no_image.png', 100, 100);
 		

@@ -61,6 +61,16 @@
 			  <input type="hidden" name="image" value="<?php echo $image; ?>" id="input-image" />
 			</div>
 		  </div>  
+		  <!-- article logo -->
+		  <div class="form-group">
+			<label class="col-sm-2 control-label" for="input-image">Аватар</label>
+			<div class="col-sm-10">
+			  <a href="" id="thumb-image" data-toggle="image" class="img-thumbnail"><img src="<?php echo $thumbava; ?>" alt="" title="" data-placeholder="<?php echo $no_image; ?>" /></a>
+			  <input type="hidden" name="ava" value="<?php echo $ava; ?>" id="input-ava" />
+			</div>
+		  </div>  
+		    <!-- article logo -->
+		  
 		  <div class="form-group">
 			<label class="col-sm-2 control-label" for="input-keyword"><?php echo $text_keyword; ?></label>
 			<div class="col-sm-10">

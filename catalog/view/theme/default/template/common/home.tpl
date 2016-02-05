@@ -35,6 +35,7 @@
     <?php echo $content_bottom; ?>
 <!--Отзывы -->
 <div class="row">
+
     <div class="col-md-12 CLbrown center wh ptb10 slab fs14" style="margin-bottom:20px; " >ОТЗЫВЫ</div>
     <?php $i=0; foreach ($all_articles as $article) { if($i<4) {?>
 <div class="col-md-3 col-sm-6 col-xs-12 mgb15">

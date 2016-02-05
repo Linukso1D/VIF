@@ -16,9 +16,9 @@
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
       <div class="row">
         <?php if ($column_left || $column_right) { ?>
-        <?php $class = 'col-sm-6'; ?>
+        <?php $class = 'col-sm-7'; ?>
         <?php } else { ?>
-        <?php $class = 'col-sm-8'; ?>
+        <?php $class = 'col-sm-10'; ?>
         <?php } ?>
         <div class="<?php echo $class; ?>">
           <?php if ($thumb || $images) { ?>
@@ -44,27 +44,9 @@
           </ul>
           <div class="tab-content">
             <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
-            <?php if ($attribute_groups) { ?>
-            <div class="tab-pane" id="tab-specification">
-              <table class="table table-bordered">
-                <?php foreach ($attribute_groups as $attribute_group) { ?>
-                <thead>
-                  <tr>
-                    <td colspan="2"><strong><?php echo $attribute_group['name']; ?></strong></td>
-                  </tr>
-                </thead>
-                <tbody>
-                  <?php foreach ($attribute_group['attribute'] as $attribute) { ?>
-                  <tr>
-                    <td><?php echo $attribute['name']; ?></td>
-                    <td><?php echo $attribute['text']; ?></td>
-                  </tr>
-                  <?php } ?>
-                </tbody>
-                <?php } ?>
-              </table>
-            </div>
-            <?php } ?>
+            
+           
+            
             <?php if ($review_status) { ?>
             <div class="tab-pane" id="tab-review">
               <form class="form-horizontal" id="form-review">
@@ -114,15 +96,11 @@
           </div>
         </div>
         <?php if ($column_left || $column_right) { ?>
-        <?php $class = 'col-sm-6'; ?>
+        <?php $class = 'col-sm-5'; ?>
         <?php } else { ?>
         <?php $class = 'col-sm-4'; ?>
         <?php } ?>
         <div class="<?php echo $class; ?>">
-          <div class="btn-group">
-            <button type="button" data-toggle="tooltip" class="btn btn-default" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product_id; ?>');"><i class="fa fa-heart"></i></button>
-            <button type="button" data-toggle="tooltip" class="btn btn-default" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product_id; ?>');"><i class="fa fa-exchange"></i></button>
-          </div>
           <h1><?php echo $heading_title; ?></h1>
           <ul class="list-unstyled">
             <?php if ($manufacturer) { ?>
@@ -132,37 +110,46 @@
             <?php if ($reward) { ?>
             <li><?php echo $text_reward; ?> <?php echo $reward; ?></li>
             <?php } ?>
-            <li><?php echo $text_stock; ?> <?php echo $stock; ?></li>
           </ul>
-          <?php if ($price) { ?>
-          <ul class="list-unstyled">
-            <?php if (!$special) { ?>
-            <li>
-              <h2><?php echo $price; ?></h2>
-            </li>
-            <?php } else { ?>
-            <li><span style="text-decoration: line-through;"><?php echo $price; ?></span></li>
-            <li>
-              <h2><?php echo $special; ?></h2>
-            </li>
+          
+           <!-- Attrib -->
+            <?php if ($attribute_groups) { ?>
+            <div class="list-group">
+             
+                <?php foreach ($attribute_groups as $attribute_group) {
+                if($attribute_group['attribute_group_id']!=10)
+                     { ?>
+              <div class="row">
+                  <div class="col-sm-12">
+                      <p class="list-group-item headproduct">
+                          <?php echo $attribute_group['name']; ?>
+                      </p>
+                  </div>
+                  
+              </div>
+                    
+               
+                
+             
+                  <?php
+                   }
+                    if($attribute_group['attribute_group_id']!=10)
+                     {
+                    foreach ($attribute_group['attribute'] as $attribute) { ?>
+                    <div class="row">
+                        <div class="col-sm-6"><span><?php echo $attribute['name']; ?></span></div>
+                        <div class="col-sm-6"><span class="note-line pull-right"><?php echo $attribute['text']; ?></span></div>
+                    </div>
+
+                  <?php }    } ?>
+                
+                <?php } ?>
+             
+            </div>
             <?php } ?>
-            <?php if ($tax) { ?>
-            <li><?php echo $text_tax; ?> <?php echo $tax; ?></li>
-            <?php } ?>
-            <?php if ($points) { ?>
-            <li><?php echo $text_points; ?> <?php echo $points; ?></li>
-            <?php } ?>
-            <?php if ($discounts) { ?>
-            <li>
-              <hr>
-            </li>
-            <?php foreach ($discounts as $discount) { ?>
-            <li><?php echo $discount['quantity']; ?><?php echo $text_discount; ?><?php echo $discount['price']; ?></li>
-            <?php } ?>
-            <?php } ?>
-          </ul>
-          <?php } ?>
-          <div id="product">
+            <!-- Attrib -->
+          
+        <!--  <div id="product">
             <?php if ($options) { ?>
             <hr>
             <h3><?php echo $text_option; ?></h3>
@@ -310,7 +297,7 @@
             <?php if ($minimum > 1) { ?>
             <div class="alert alert-info"><i class="fa fa-info-circle"></i> <?php echo $text_minimum; ?></div>
             <?php } ?>
-          </div>
+          </div> -->
           <?php if ($review_status) { ?>
           <div class="rating">
             <p>

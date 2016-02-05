@@ -51,13 +51,13 @@
     <!-- TOP LINKS --> 
     <div class="row">
         <div class="col-xs-4 col-md-3"></div>
-        <div class="col-xs-12 col-md-5 wh headlink">
+        <div class="col-xs-12 col-md-6 wh headlink">
            <a class="upper" href="/o-nas.html">О компании</a>
            <a class="upper" href="/news">Новости</a>
            <a class="upper" href="/articles">Отзывы</a>
            <a class="upper" href="<?php echo $contact; ?>">Контакты</a> 
         </div>
-        <div class="col-xs-12 col-md-4 hidden-xs hidden-sm">
+        <div class="col-md-3 hidden-xs hidden-sm">
                    
                  <div id="advanced-newsletter-box" style="padding:0px;">
                         <div class="input-group box-newsletter-subscribe" id="mail-box">
@@ -82,7 +82,7 @@
                   <?php } ?>
                 </div>
         </div>
-        <div class="col-xs-4"></div>
+        <div class="col-xs-3"></div>
     </div>
     
     
@@ -118,7 +118,7 @@
  
  <div class="row">
      <div class="col-md-3"></div>
-     <div class="col-md-5">
+     <div class="col-md-6">
     <nav id="menu" class="navbar">
                     <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
                       <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
@@ -149,7 +149,7 @@
   </nav>
          
      </div>
-     <div class="col-md-4 hidden-xs  hidden-sm" style="max-height:25px;  padding-top: 5px;">
+     <div class="col-md-3 hidden-xs  hidden-sm" style="max-height:25px;  padding-top: 5px;">
         <?php echo $search; ?>    
      
 

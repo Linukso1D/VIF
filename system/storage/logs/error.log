@@ -4454,3 +4454,5 @@
 2016-02-05 9:40:02 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\articles.php on line 20
 2016-02-05 9:40:02 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\articles.php on line 26
 2016-02-05 9:40:02 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\articles.php on line 35
+2016-02-05 11:51:01 - PHP Notice:  Error: Duplicate entry '51-19-1' for key 'PRIMARY'<br />Error No: 1062<br />INSERT INTO oc_product_attribute SET product_id = '51', attribute_id = '19', language_id = '1', text = 'Топ продаж' in C:\xampp\htdocs\VIF\system\library\db\mysqli.php on line 41
+2016-02-05 15:25:31 - PHP Warning:  Division by zero in C:\xampp\htdocs\VIF\system\storage\modification\catalog\controller\product\category.php on line 409

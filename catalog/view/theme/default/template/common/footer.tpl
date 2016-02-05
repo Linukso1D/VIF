@@ -9,7 +9,7 @@
                     <div class="box-newsletter-subscribe" id="mail-box">
                         <input type="text" name="email" placeholder="Ваш Email" style="color: black;" />
                         <span class="input-group-btn">
-                        <button class="plr0 btn btn-brown enter-subscribe " type="button">Подписаться</button>
+                        <button class="plr0 btn btn-brown enter-subscribe pd1200" type="button">Подписаться</button>
                         </span>
                     </div>
                 </div>

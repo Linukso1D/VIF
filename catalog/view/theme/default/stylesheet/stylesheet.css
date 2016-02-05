@@ -48,7 +48,9 @@ h6 {
 /* Override the bootstrap defaults */
 
 h1 {
+    margin-top: 0px;
     font-size: 33px;
+     font-family: 'Roboto Slab', serif;
 }
 
 h2 {
@@ -145,6 +147,10 @@ input[type="color"].form-control {
     border-radius: 0px;
     font-size: 12px;
 }
+
+
+
+
 
 .input-group input,
 .input-group select,
@@ -441,10 +447,17 @@ text-decoration: underline;
     color: #ffffff;
     background-color: #291616;
 }
-
+    .pd1200
+    {
+        padding-left: 7px 16px;
+    }
 @media (min-width: 768px) {
     #menu .dropdown:hover .dropdown-menu {
         display: block;
+    }
+    .pd1200
+    {
+        padding-left: 0px !important;
     }
 }
 
@@ -572,6 +585,8 @@ footer h5 {
     margin: 20px 0 20px 0;
     padding: 8px 0;
     background: none;
+       position: relative;
+    background-color: #eee;
 }
 
 .breadcrumb i {
@@ -579,11 +594,13 @@ footer h5 {
 }
 
 .breadcrumb > li {
-
-    padding: 0 1px;
-    position: relative;
+   font-family: 'Roboto Slab', serif;
+    padding: 0 3px;
+ 
     white-space: nowrap;
     color: #462626;
+    position: relative;
+
 
 }
 
@@ -593,17 +610,67 @@ footer h5 {
 }
 
 .breadcrumb > li:after {
-    padding-left: 2px;
+    padding-left: 7px;
     color: rgba(70, 38, 38, 0.58);
     content: '//';  
 }
 .breadcrumb > li:last-child:after {
     content: '';  
 }
+.pagination>li>a, .pagination>li>span {
+color:#291616;
+    
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    margin-left: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #291616;
+    border-color: #291616;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 3;
+background-color: #462626;
+ color: #ffffff;
+    border-color: #291616;
+}
+
+
 
 .pagination {
     margin: 0;
 }
+.breadcrumb:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #eee;
+    right: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+.breadcrumb:after {
+  content: '';
+    display: block;
+    position: absolute;
+    background-color: #eee;
+    left: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
 
 
 /* buttons */
@@ -649,7 +716,11 @@ footer h5 {
 .btn-group > .btn-lg {
     font-size: 15px;
 }
-
+.thumbnail
+{
+    border-radius: 0px;
+   
+}
 .btn-default {
     color: #777;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
@@ -672,7 +743,7 @@ footer h5 {
 .btn-primary.active,
 .btn-primary.disabled,
 .btn-primary[disabled] {
-    background-color: rgba(70, 38, 38, 0.92);
+    background-color: rgb(70, 38, 38);
     background-position: 0 -15px;
 }
 
@@ -787,6 +858,16 @@ footer h5 {
     padding: 8px 12px;
 }
 
+.list-group span {
+   
+    color: #4e3434;
+    padding: 6px 15px 8px 0px;
+    display: inline-block;
+}
+.note-line {
+border: none !important;
+}
+
 .list-group a.active,
 .list-group a.active:hover,
 .list-group a:hover {
@@ -807,7 +888,12 @@ footer h5 {
     border-top-right-radius: 0px;
 }
 
-
+.headproduct
+{
+    font-size: 12pt;
+         border-bottom: 1px solid #462626;
+         padding: 8px 2px;
+}
 /* carousel */
 
 .carousel-caption {
@@ -1014,7 +1100,9 @@ h2.price {
         width: 33.33%;
     }
 }
-
+.list-group-item:last-child {
+    border-radius: 0px;
+}
 .thumbnails {
     overflow: auto;
     clear: both;
@@ -1050,6 +1138,11 @@ h2.price {
     float: left;
     margin-left: 20px;
 }
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+    border-color: #462626;
+}
+
+
 
 @media (min-width: 1200px) {
     #content .col-lg-2:nth-child(6n+1),
@@ -1077,7 +1170,7 @@ h2.price {
     #content .col-sm-3:nth-child(4n+1),
     #content .col-sm-4:nth-child(3n+1),
     #content .col-sm-6:nth-child(2n+1) {
-        clear: left;
+            clear: none;
     }
 }
 
@@ -1097,6 +1190,9 @@ h2.price {
     #content + #column-right .product-layout .col-md-3 {
         width: 100%;
     }
+    .navbar-nav>li {
+   float: none; 
+}
 }
 
 
@@ -1279,6 +1375,7 @@ display: inline-block;
     width: 100%;
     bottom: 10%;
     color: black;
+    font-weight: 400;
 }
 
 .thetestt:hover .textfeature i {
@@ -1297,6 +1394,7 @@ display: inline-block;
     transition: .3s;
     color: white;
     bottom: 40%;
+     font-weight: 400;
 }
 
 .fs14 {
@@ -1480,6 +1578,9 @@ input {
 .titlarthome {
     font-size: 16px;
     color: #462626;
+}
+.valm {
+    transform: translateY(50%);
 }
 
 .vertcenr {

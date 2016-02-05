@@ -369,6 +369,7 @@ div.required .control-label:before {
 
 #menu .dropdown-menu {
     padding-bottom: 0;
+    border-radius: 0px;
 }
 
 #menu .dropdown-inner {
@@ -568,9 +569,9 @@ footer h5 {
 /* breadcrumb */
 
 .breadcrumb {
-    margin: 0 0 20px 0;
+    margin: 20px 0 20px 0;
     padding: 8px 0;
-    border: 1px solid #ddd;
+    background: none;
 }
 
 .breadcrumb i {
@@ -578,10 +579,12 @@ footer h5 {
 }
 
 .breadcrumb > li {
-    text-shadow: 0 1px 0 #FFF;
-    padding: 0 20px;
+
+    padding: 0 1px;
     position: relative;
     white-space: nowrap;
+    color: #462626;
+
 }
 
 .breadcrumb > li + li:before {
@@ -590,19 +593,12 @@ footer h5 {
 }
 
 .breadcrumb > li:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: -3px;
-    right: -5px;
-    width: 26px;
-    height: 26px;
-    border-right: 1px solid #DDD;
-    border-bottom: 1px solid #DDD;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    padding-left: 2px;
+    color: rgba(70, 38, 38, 0.58);
+    content: '//';  
+}
+.breadcrumb > li:last-child:after {
+    content: '';  
 }
 
 .pagination {
@@ -666,10 +662,9 @@ footer h5 {
 .btn-primary {
     color: #ffffff;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    background-color: #229ac8;
-    background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
-    background-repeat: repeat-x;
-    border-color: #1f90bb #1f90bb #145e7a;
+    background-color: #462626;
+    border-color: #674c4c #553131 #462626;
+    border-radius: 0px;
 }
 
 .btn-primary:hover,
@@ -677,7 +672,7 @@ footer h5 {
 .btn-primary.active,
 .btn-primary.disabled,
 .btn-primary[disabled] {
-    background-color: #1f90bb;
+    background-color: rgba(70, 38, 38, 0.92);
     background-position: 0 -15px;
 }
 
@@ -1350,7 +1345,7 @@ display: inline-block;
 }
 
 .input-sm {
-    height: 20px;
+    height: 25px;
 }
 
 input {
@@ -1410,7 +1405,7 @@ input {
     transition: all 0.3s ease;
     margin-left: 2px;
     white-space: nowrap;
-    line-height: 20px;
+    line-height: 15px;
 }
 
 .btn-brown:hover {

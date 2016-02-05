@@ -2,51 +2,52 @@
    <footer id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-4 col-xs-12">
                 <!-- Подписка -->
                 <div id="advanced-newsletter-box1" style="padding:0px;">
-                    <label class="heading-title slab mgb15">ОФОРМИТЬ ПОДПИСКУ</label>
+                    <label class="heading-title slab mgb15 nowrap" >ОФОРМИТЬ ПОДПИСКУ</label>
                     <div class="box-newsletter-subscribe" id="mail-box">
                         <input type="text" name="email" placeholder="Ваш Email" style="color: black;" />
                         <span class="input-group-btn">
-                                            <button class="plr0 btn btn-brown enter-subscribe " type="button">Подписаться</button>
-                                        </span>
+                        <button class="plr0 btn btn-brown enter-subscribe " type="button">Подписаться</button>
+                        </span>
                     </div>
                 </div>
                 <div id="logo">
                     <?php if ($logo) { ?>
-                        <a href="<?php echo $home; ?>"><img  src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
+                        <a href="<?php echo $home; ?>"><img class="logofooter" src="<?php echo $logo; ?>" class="img-responsive" /></a>
                         <?php } else { ?>
                             <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
                             <?php } ?>
                 </div>
             </div>
 
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-4 col-xs-12">
                 <!-- Логин -->
 
-
+                
                 <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
-                    <div class="form-group">
+                
                         <label class="heading-title slab mgb15" for="input-email">ЛИЧНЫЙ КАБИНЕТ</label>
-                        <input type="text" name="email" value="" placeholder="Логин" id="input-email" />
-                    </div>
 
+              
 
-                    <input type="password" name="password" value="" placeholder="Пароль" id="input-password" />
+                        <div class="row">
+                            <div class="col-xs-12">   <input type="text"  name="email" value="" placeholder="Логин" id="input-email" /> </div>
+                        <div class="col-xs-12">
+                    <input type="password" class="mgt10" name="password" value="" placeholder="Пароль" id="input-password" />
+                    </div> <div class="col-xs-12">
                     <input type="submit" value="Авторизироваться" class="mgt10 btn plr0 under btnUnset nothover" />
-                    <br>
-                    <a class="under mgt10" href="<?php echo $forgotten; ?>">Забыли пароль?</a>
-
+                     </div>
+                    <br> <div class="col-xs-12">
+                    <a class="under mgt10" href="<?php echo $forgotten; ?>">Забыли пароль?</a> </div>
+                         </div>
 
                 </form>
-
-
-
-
+               
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-5 hidemob">
                 <!-- Новости -->
                 <label class="heading-title slab mgb15">НОВОСТИ</label>
                 <div class="row">
@@ -68,7 +69,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <a href=" <?php echo $news['link'];?>"><img style="border: 1px solid white;" src="<?php echo $news['image'];?>" alt=""></a>
+                                    <a href=" <?php echo $news['link'];?>"><img style="border: 1px solid white; width:100%;" src="<?php echo $news['image'];?>" alt=""></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -90,7 +91,7 @@
 
             </div>
 
-            <div class="col-md-2 ">
+            <div class="col-md-2 col-sm-4 col-xs-12">
                 <div style="    margin-bottom: -9px;">
                     <label class="heading-title slab mgb15">
                         КАК НАЙТИ VIF
@@ -99,8 +100,8 @@
                        <div>
                         <img src="image/catalog/map.png" alt="">
                         </div>
-                        <div style="position:absolute;top: 0px;    line-height: 30px;">
-                            <p><?php echo $data['address']; ?></p>
+                        <div class="maptext">
+                            <p style="text-align:center;"><?php echo $data['address']; ?></p>
                         </div>
                     </div>
                 </div>

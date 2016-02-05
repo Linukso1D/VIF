@@ -54,7 +54,7 @@
            <a class="upper" href="/articles">Отзывы</a>
            <a class="upper" href="<?php echo $contact; ?>">Контакты</a> 
         </div>
-        <div class="col-xs-12 col-md-4">
+        <div class="col-xs-12 col-md-4 hidden-xs hidden-sm">
                    
                  <div id="advanced-newsletter-box" style="padding:0px;">
                         <div class="input-group box-newsletter-subscribe" id="mail-box">
@@ -146,7 +146,7 @@
   </nav>
          
      </div>
-     <div class="col-md-4" style="max-height:25px;  padding-top: 5px;">
+     <div class="col-md-4 hidden-xs  hidden-sm" style="max-height:25px;  padding-top: 5px;">
         <?php echo $search; ?>    
      
 

@@ -37,13 +37,13 @@
 <div class="row">
     <div class="col-md-12 CLbrown center wh ptb10 slab fs14" style="margin-bottom:20px; " >ОТЗЫВЫ</div>
     <?php $i=0; foreach ($all_articles as $article) { if($i<4) {?>
-<div class="col-md-3 mgb15">
+<div class="col-md-3 col-sm-6 col-xs-12 mgb15">
         <div class="row mgb15">
-           <div class="col-md-2">
-                <img src="" style="height:50px;width:50px;" alt="">
+           <div class="col-md-2 col-xs-3">
+                <img src="<?php echo $article['ava']; ?>" class="elipseimg" alt="">
            </div>
-           <div class="col-md-7 col-md-offset-1"> <?php echo $article['title']; ?>  </div>
-           <div class="col-md-2"> <a href="<?php echo $article['link']; ?>"><i style="float: right;" class="fa fa-long-arrow-right"></i></a></div>
+            <div class="col-md-9  col-md-offset-1 col-xs-8 col-xs-offset-1 titlarthome vertcenr"><a href="<?php echo $article['link']; ?>"> <?php echo $article['title']; ?></a> <a href="<?php echo $article['link']; ?>"> <i style="float: right;" class="fa fa-long-arrow-right"></i></a></div>
+
         </div>
         
         <div class="row mgb15">
@@ -53,7 +53,7 @@
         </div>
         <div class="row mgb15">
          <div class="col-md-12">
-          <a href="<?php echo $article['link']; ?>"> <img src="<?php echo $article['image']; ?>"  alt=""> </a> 
+          <a href="<?php echo $article['link']; ?>"> <img src="<?php echo $article['image']; ?>" style="width: 100%;" alt=""> </a> 
           </div>
         </div>
 </div>

@@ -83,7 +83,8 @@ a {
     color: #462626;
 }
 
-a:hover {
+a:hover,
+a:focus{
     transition: .3s;
     color: #462626;
     text-decoration: underline;
@@ -380,7 +381,7 @@ div.required .control-label:before {
 }
 
 #menu .dropdown-menu {
-    padding-bottom: 0;
+    padding: 0;
     border-radius: 0px;
 }
 
@@ -397,14 +398,21 @@ div.required .control-label:before {
     display: block;
     padding: 3px 20px;
     clear: both;
-    line-height: 20px;
+    line-height: 30px;
     color: #333333;
     font-size: 12px;
+    border-left: 3px solid white;
 }
 
 #menu .dropdown-inner li a:hover {
-text-decoration: underline;
+    background-color: #DDDDDD;
+    border-left: 3px solid #462626;
+   
 }
+
+
+
+
 
 #menu .see-all {
     display: block;
@@ -486,7 +494,6 @@ text-decoration: underline;
     }
     #menu div.dropdown-menu {
         margin-left: 0 !important;
-        padding-bottom: 10px;
         background-color: rgba(0, 0, 0, 0.1);
     }
     #menu .dropdown-inner {
@@ -496,7 +503,7 @@ text-decoration: underline;
        
         color: #fff;
      text-align: center; 
-     margin-left: 20px; 
+    
     }
     #menu .dropdown-menu a:hover,
     #menu .dropdown-menu ul li a:hover {
@@ -531,6 +538,31 @@ text-decoration: underline;
     #menu .nav > li > a {
     padding: 10px 10px 10px 10px;
     }
+  
+    
+    #menu .dropdown-inner a {
+    min-width: 160px;
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    line-height: 30px;
+
+    font-size: 12px;
+    border-left: 3px solid rgba(255, 255, 255, 0);
+}
+
+#menu .dropdown-inner li a:hover {
+background-color: rgba(240, 248, 255, 0);
+    border-left: 3px solid #DDDDDD;
+   
+}
+    
+    
+    
+    
+    
+    
+    
 }
 
 #cart .dropdown-menu li p {
@@ -1090,7 +1122,15 @@ h2.price {
     }
 .navbar-nav>li {
     float: none;
-}
+  
+    }
+    .navbar-nav>li>a:hover,
+    .navbar-nav>li>a:focus{
+    background-color: #462626;
+  
+    }
+    
+    
 }
 
 @media (max-width: 1200px) {
@@ -1568,6 +1608,10 @@ input {
     bottom: 40px;
     right: 0px;
 }
+
+
+
+
 
 .caption {
     bottom: 10px;

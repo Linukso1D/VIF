@@ -23,6 +23,9 @@
 				<script src="catalog/view/javascript/mf/jquery-ui.min.js" type="text/javascript"></script>
 			
 <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+
+
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
 <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
@@ -133,7 +136,7 @@
               <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
               <ul class="list-unstyled">
                 <?php foreach ($children as $child) { ?>
-                <li><a href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a></li>
+                <li><a class="menutop" href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a></li>
                 <?php } ?>
               </ul>
               <?php } ?>

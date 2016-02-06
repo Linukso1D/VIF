@@ -63,8 +63,8 @@ class ControllerInformationNews extends Controller {
 		foreach ($all_news as $news) {
 			$data['all_news'][] = array (
 				'title' 		=> html_entity_decode($news['title'], ENT_QUOTES),
-				'image'			=> $this->model_tool_image->resize($news['image'], 100, 100),
-				'description' 	=> (strlen(strip_tags(html_entity_decode($news['short_description'], ENT_QUOTES))) > 50 ? substr(strip_tags(html_entity_decode($news['short_description'], ENT_QUOTES)), 0, 50) . '...' : strip_tags(html_entity_decode($news['short_description'], ENT_QUOTES))),
+				'image'			=> $this->model_tool_image->resize($news['image'], 270, 113),
+				'description' 	=> (mb_strlen(strip_tags(html_entity_decode($news['short_description'], ENT_QUOTES))) > 230 ? mb_substr(strip_tags(html_entity_decode($news['short_description'], ENT_QUOTES)), 0, 230) . '...' : strip_tags(html_entity_decode($news['short_description'], ENT_QUOTES))),
 				'view' 			=> $this->url->link('information/news/news', 'news_id=' . $news['news_id']),
 				'date_added' 	=> date($this->language->get('date_format_short'), strtotime($news['date_added']))
 			);

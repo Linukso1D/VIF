@@ -37,7 +37,7 @@ class ControllerCommonHome extends Controller {
 		foreach ($all_articles as $articles) {
 			$data['all_articles'][] = array (
 				'title' 		=> html_entity_decode($articles['title'], ENT_QUOTES),
-                'image'			=> $this->model_tool_image->resize($articles['image'], 500, 340),
+                'image'			=> $this->model_tool_image->resize($articles['image'], 700, 295),
                 'ava'			=> $this->model_tool_image->resize($articles['ava'], 50, 50),
 				'description' 	=> (mb_strlen(strip_tags(html_entity_decode($articles['short_description'], ENT_QUOTES))) > 180 ? mb_substr(strip_tags(html_entity_decode($articles['short_description'], ENT_QUOTES)), 0, 180) . '...' : strip_tags(html_entity_decode($articles['short_description'], ENT_QUOTES))),
 				'link' 			=> $this->url->link('information/articles/articles', 'articles_id=' . $articles['articles_id']),

@@ -60,23 +60,26 @@
            <a class="upper" href="/articles">Отзывы</a>
            <a class="upper" href="<?php echo $contact; ?>">Контакты</a> 
         </div>
-        <div class="col-md-3 hidden-xs hidden-sm">
+        <div class="col-md-3 hidden-xs hidden-sm " style="    max-height: 20px;">
                    
                  <div id="advanced-newsletter-box" style="padding:0px;">
                         <div class="input-group box-newsletter-subscribe" id="mail-box">
-                            <input type="text" name="email" placeholder="Ваш Email"/>
-                            <span class="input-group-btn">
-                            <button class="btn btn-brown enter-subscribe" type="button">ПОДПИСАТЬСЯ</button>
+                            <input type="text" name="email" style="    height: 22px;" placeholder="Ваш Email"/>
+                            <span class="input-group-btn" >
+                            <button class="btn btn-brown enter-subscribe" style="    padding: 6px 12px;" type="button">ПОДПИСАТЬСЯ</button>
                             </span>
                         </div>
                     </div>
 
         </div>
     </div>
+        </div> 
+    </nav>
+     <div class="container">
     <!-- image -->
     <div class="row">
         <div class="col-xs-4"></div>
-        <div class="col-xs-4">
+        <div class="col-xs-4 mgt15">
                  <div id="logo">
                   <?php if ($logo) { ?>
                   <a href="<?php echo $home; ?>"><img style="margin: auto;" src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
@@ -87,9 +90,9 @@
         </div>
         <div class="col-xs-3"></div>
     </div>
-    
-    
-    
+
+   
+     
     
     
     
@@ -136,7 +139,7 @@
               <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
               <ul class="list-unstyled">
                 <?php foreach ($children as $child) { ?>
-                <li><a class="menutop" href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a></li>
+                <li><a href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a></li>
                 <?php } ?>
               </ul>
               <?php } ?>
@@ -152,7 +155,7 @@
   </nav>
          
      </div>
-     <div class="col-md-3 hidden-xs  hidden-sm" style="max-height:25px;  padding-top: 5px;">
+     <div class="col-md-3 hidden-xs  hidden-sm" style="max-height:25px;padding-top:2px;">
         <?php echo $search; ?>    
      
 
@@ -167,7 +170,7 @@
    
    
   </div>
-</nav>
+
 <header>
  
   

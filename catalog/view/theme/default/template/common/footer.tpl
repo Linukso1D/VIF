@@ -14,11 +14,8 @@
                     </div>
                 </div>
                 <div id="logo">
-                    <?php if ($logo) { ?>
-                        <a href="<?php echo $home; ?>"><img class="logofooter" src="<?php echo $logo; ?>" class="img-responsive" /></a>
-                        <?php } else { ?>
-                            <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-                            <?php } ?>
+                   
+                        <a href="<?php echo $home; ?>"><img class="logofooter" src="image/catalog/vifcom-logo-white.png" class="img-responsive" /></a>                         
                 </div>
             </div>
 

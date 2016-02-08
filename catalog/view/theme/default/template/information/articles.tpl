@@ -15,35 +15,7 @@
     <?php } ?>
   <div class="news_style_information">
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-     <script>
-         jQuery(function ($) {
-    function fix_size() {
-        var images = $('.img-container img');
-        images.each(setsize);
-
-        function setsize() {
-            var img = $(this),
-                img_dom = img.get(0),
-                container = img.parents('.img-container');
-            if (img_dom.complete) {
-                resize();
-            } else img.one('load', resize);
-
-            function resize() {
-                if ((container.width() / container.height()) < (img_dom.width / img_dom.height)) {
-                    img.width('100%');
-                    img.height('auto');
-                    return;
-                }
-                img.height('100%');
-                img.width('auto');
-            }
-        }
-    }
-    $(window).on('resize', fix_size);
-    fix_size();
-});
-        </script>
+    
      
      
      
@@ -53,20 +25,22 @@
          <div class="col-sm-12 col-xs-12 img-container" style="    margin-bottom: 50px;">
               <?php if ($image) { ?>
                   
-                  <img class="pull-left" src="<?php echo $image; ?>" alt="<?php echo $heading_title; ?>" />
+                  <img  class="pull-left" src="<?php echo $image; ?>" style="max-width:100%;" alt="<?php echo $heading_title; ?>" />
                   
             <?php } ?>
          </div>
-         <div class="col-sm-2 col-md-2 col-xs-12 img-container">
+         <div class="col-sm-2 col-md-2 col-xs-4 ">
              <?php if ($ava) { ?>
-              <img class="pull-left" src="<?php echo $ava; ?>" alt="<?php echo $heading_title; ?>" style ="border-radius: 125px;"/>
+              <img class="pull-left" src="<?php echo $ava; ?>" alt="<?php echo $heading_title; ?>" style ="max-width:100%; border-radius: 125px;"/>
         	  <?php } ?>
          </div>
+         <div class="col-sm-10 col-md-10 col-xs-8">
+             
+             <h1 class="name_news"> <span class="ctgheading"><?php echo $heading_title; ?></span></h1>
+         </div>
+         
          <div class="col-sm-9 col-xs-12">
-           <div class="row">
-               <div class="col-sm-12"><h1 class="name_news"> <span class="ctgheading"><?php echo $heading_title; ?></span></h1></div>
-               <!--<div class="col-sm-6"><h4 class="pull-right vertcenr"> <?php echo $date_added; ?> </h4></div>-->
-           </div>
+         
             
             
              <p><?php echo $description; ?></p>

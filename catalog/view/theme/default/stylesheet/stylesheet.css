@@ -43,16 +43,25 @@ h6 {
     color: #444;
 }
 
+.comment
+{
+    border-bottom:1px solid #DDDDDD;
+}
 
 /* default font size */
 
 .fa {
     font-size: 14px;
 }
-
+#review .fa
+{
+    width: 15px;
+}
 
 /* Override the bootstrap defaults */
-
+.nav-tabs>li>a {
+border-radius: 0px;
+}
 
 h1 {
     margin-top: 0px;
@@ -67,7 +76,7 @@ h2 {
 
 h3 {
     margin-top:5px;
-     margin-bottom:5px;
+    margin-bottom:5px;
     font-size: 21px;
     
 }
@@ -716,8 +725,16 @@ background-color: #462626;
     bottom: 0;
 }
 
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    color: #291616;
+    background-color: #ffffff;
 
-
+    
+}
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
+    color: #291616;
+    background-color: #ffffff;
+}
 /* buttons */
 
 .buttons {
@@ -729,6 +746,7 @@ background-color: #462626;
     font-size: 12px;
     border: 1px solid #cccccc;
     border-radius: 4px;
+        height: 30px;
 }
 
 .btn-xs {
@@ -767,13 +785,25 @@ background-color: #462626;
    
 }
 .btn-default {
-    color: #777;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-    background-color: #e7e7e7;
-    background-image: linear-gradient(to bottom, #eeeeee, #dddddd);
-    background-repeat: repeat-x;
-    border-color: #dddddd #dddddd #b3b3b3 #b7b7b7;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #462626;
+    border-color: #674c4c #553131 #462626;
+    border-radius: 0px;
 }
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus,
+.btn-default.active,
+.btn-default.disabled,
+.btn-default[disabled] {
+    background-color: rgb(70, 38, 38);
+  color: white;
+     border-color: #674c4c #553131 #462626;
+       border-color: #291616;
+}
+
+
 
 .btn-primary {
     color: #ffffff;
@@ -785,11 +815,15 @@ background-color: #462626;
 
 .btn-primary:hover,
 .btn-primary:active,
+.btn-primary:focus,
 .btn-primary.active,
+.btn-primary:active:hover,
+.btn-primary:active:focus,
 .btn-primary.disabled,
 .btn-primary[disabled] {
     background-color: rgb(70, 38, 38);
     background-position: 0 -15px;
+    border-color: #291616;
 }
 
 .btn-warning {
@@ -1024,6 +1058,7 @@ border: none !important;
 
 
 .product-thumb .rating {
+     padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -1032,17 +1067,25 @@ border: none !important;
 }
 
 .rating .fa-star-o {
-    color: #999;
+    color: #291616;
     font-size: 15px;
 }
 
 .rating .fa-star {
-    color: #FC0;
+    color: #291616;
     font-size: 15px;
 }
 
 .rating .fa-star + .fa-star-o {
-    color: #E69500;
+    color: #462626;
+}
+.fa-stack
+{
+    color: #291616;
+}
+.fa-star
+{
+        color: #462626;
 }
 
 h2.price {
@@ -1525,7 +1568,15 @@ input {
     border-width: 2px;
     border-color: #ffffff;
 }
-
+.alert-danger {
+    color: #562A29;
+    background-color: #FFFFFF;
+    border-color: #462626;
+}
+.alert
+{
+    border-radius: 0px;
+}
 .owl-pagination > .owl-page.active>span {
     border: 1px solid white;
     border-width: 2px;
@@ -1536,6 +1587,10 @@ input {
     border: 0px;
     border-radius: 0px;
     /* border-bottom: 1px solid #462626;*/
+}
+.well {
+border-radius: 0px;
+    background-color: #eee;
 }
 
 .ctgheading {

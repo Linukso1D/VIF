@@ -15,7 +15,7 @@
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
       <h1>
-      <span class="ctgctgheading">
+      <span class="ctgheading">
       <?php echo $heading_title; ?></span></h1>
       <label class="control-label" for="input-search"><?php echo $entry_search; ?></label>
       <div class="row">
@@ -56,7 +56,7 @@
             <input type="checkbox" name="sub_category" value="1" />
             <?php } ?>
             <?php echo $text_sub_category; ?></label>
-              <p>
+              
         <label class="checkbox-inline">
           <?php if ($description) { ?>
           <input type="checkbox" name="description" value="1" id="description" checked="checked" />
@@ -64,23 +64,20 @@
           <input type="checkbox" name="description" value="1" id="description" />
           <?php } ?>
           <?php echo $entry_description; ?></label>
-      </p>
+     
         </div>
         <div class="col-sm-2">
-             <input type="button" value="<?php echo $button_search; ?>" id="button-search" class="btn btn-primary" />
+             <input type="button" value="<?php echo $button_search; ?>" id="button-search" class="btn btn-primary pull-right" />
         </div>
       </div>
     
      
-      <h2><?php echo $text_search; ?></h2>
+      <h2 style="margin-bottom: 20px;"><?php echo $text_search; ?></h2>
       <?php if ($products) { ?>
-      <p><a href="<?php echo $compare; ?>" id="compare-total"><?php echo $text_compare; ?></a></p>
+     
       <div class="row">
         <div class="col-sm-3 hidden-xs">
-          <div class="btn-group">
-            <button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="<?php echo $button_list; ?>"><i class="fa fa-th-list"></i></button>
-            <button type="button" id="grid-view" class="btn btn-default" data-toggle="tooltip" title="<?php echo $button_grid; ?>"><i class="fa fa-th"></i></button>
-          </div>
+     <p style="display: flex;"><a href="<?php echo $compare; ?>" class="btn-brown" id="compare-total"><?php echo $text_compare; ?></a></p>
         </div>
         <div class="col-sm-1 col-sm-offset-2 text-right">
           <label class="control-label" for="input-sort"><?php echo $text_sort; ?></label>

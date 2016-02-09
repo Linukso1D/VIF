@@ -803,7 +803,19 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
        border-color: #291616;
 }
 
+.checkbox-inline+.checkbox-inline, .radio-inline+.radio-inline {
+    margin-top: -4px;
+    margin-left: 0px;
+}
+.checkbox-inline
+{
+      margin-top: -4px;
+}
 
+.panel-default 
+{
+    border-radius: 0px;
+}
 
 .btn-primary {
     color: #ffffff;
@@ -1599,6 +1611,11 @@ border-radius: 0px;
     margin-bottom: -1px;
     padding-bottom: 10px;
 }
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    margin-top: 0px;
+}
+
 
 .btn-brown {
     color: #462626;

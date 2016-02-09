@@ -4559,3 +4559,9 @@
 2016-02-08 13:22:24 - PHP Notice:  Undefined variable: productArray in C:\xampp\htdocs\VIF\admin\view\template\marketing\contact.tpl on line 114
 2016-02-08 15:07:46 - PHP Notice:  Undefined variable: cust_id in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 58
 2016-02-08 15:08:33 - PHP Notice:  Undefined variable: cust_id in C:\xampp\htdocs\VIF\catalog\view\theme\default\template\account\download.tpl on line 58
+2016-02-09 9:47:17 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\news.php on line 22
+2016-02-09 9:47:17 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\news.php on line 28
+2016-02-09 9:47:17 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\news.php on line 37
+2016-02-09 9:47:17 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\articles.php on line 20
+2016-02-09 9:47:17 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\articles.php on line 26
+2016-02-09 9:47:17 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\articles.php on line 35

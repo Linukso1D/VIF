@@ -108,7 +108,7 @@ class ControllerCommonHeader extends Controller {
 		$data['categories'] = array();
 
 		$categories = $this->model_catalog_category->getCategories(0);
-
+        $daughter_data = array();
 		foreach ($categories as $category) {
 			if ($category['top']) {
 				// Level 2
@@ -126,6 +126,26 @@ class ControllerCommonHeader extends Controller {
 						'name'  => $child['name'],
 						'href'  => $this->url->link('product/category', 'path=' . $category['category_id'] . '_' . $child['category_id'])
 					);
+                    
+                    //------3-я дочь      
+                                    
+                  
+                                    $daughters = $this->model_catalog_category->getCategories($child['category_id']);
+
+                                    foreach($daughters as $daughter) {
+                                       
+
+                                        $daughter_data[] = array(
+                                            'category_id' => $daughter['category_id'],
+                                            'name' => $daughter['name'],
+                                            'href' => $this->url->link('product/category', 'path=' . $category['category_id'] . '_' . $child['category_id'].'_'.$daughter['category_id'])
+                                        );
+                                    }
+                    
+                                
+                                //-------------------     
+                    
+                    
 				}
 
 				// Level 1

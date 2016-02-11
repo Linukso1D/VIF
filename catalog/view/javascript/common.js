@@ -61,7 +61,7 @@ $(document).ready(function() {
 	});
 
 	/* Search */
-	$('#search input[name=\'search\']').parent().find('button').on('click', function() {
+	/*$('#search input[name=\'search\']').parent().find('button').on('click', function() {
 		url = $('base').attr('href') + 'index.php?route=product/search';
 
 		var value = $('#search input[name=\'search\']').val();
@@ -77,7 +77,7 @@ $(document).ready(function() {
 		if (e.keyCode == 13) {
 			$('#search input[name=\'search\']').parent().find('button').trigger('click');
 		}
-	});
+	});*/
 
 	// Menu
 	$('#menu .dropdown-menu').each(function() {

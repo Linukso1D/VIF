@@ -1798,91 +1798,74 @@ input {
 
 /* Заполнитель */
 
-/* Поле ввода строки поиска */
-#top2 input[type=text] {
-  
-	background: #ededed url(images/search-icon.png) no-repeat 9px center;
-    background-position: right;
-    float: right;
-    background-color: white;
-    border: none;
-    outline: white;
-    box-shadow: none;
-    border-bottom: 2px solid #FFF;
-	padding: 9px 10px 9px 32px;
-	width: 55px;
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	transition: all .5s;
+
+#search{display:inline-block;border:0;padding:0;background: #fff url(images/search-icon.png) no-repeat center right;width: 30px;overflow:hidden;background-position: 10px center;}
+#search *{margin:0;white-space:nowrap}
+#search form{display:inline-block;}
+#search input{opacity: 0;box-shadow:none;border:0;outline:0;height:40px;border-bottom: 2px solid #462626;background:transparent;width:110px;color:#555;transition:width 0.5s;font-size:12px;cursor: pointer;}
+#search button{position: relative;top:1px;opacity:0;z-index:-100500;position: absolute;outline:0;background:transparent;height:21px;width:20px;cursor:pointer;border:0;vertical-align:middle;padding:0;display:inline-block;position: relative;background-image: url(images/search-icon.png);background-position:center;background-repeat: no-repeat;background-size:18px auto}
+#search button:hover{background-image: url(images/search-icon.png);}
+#search input:focus{outline:0;box-shadow:none}
+#search input:focus::-webkit-input-placeholder{color:transparent}
+#search input:focus::-moz-placeholder{color:transparent}
+#search input:focus::-moz-placeholder{color:transparent}
+#search input:focus:-moz-placeholder{color:transparent}
+#search input:focus:-ms-input-placeholder{color:transparent}
+
+#search.focus{background:#fff;width:auto;}
+#search.focus button{opacity: 1;z-index: 1;}
+#search.focus input{opacity: 1;cursor: auto;}
+
+/*
+#search{
+	position: absolute;
+	top: 0;
+	right: 0;	
+	
+	background: #fff url(images/search-icon.png) right center no-repeat;
+	background-size: auto 70%;
+	text-align: right;
 }
-#top2 input[type=text]:focus {
-	width: 130px;
-	background-color: #fff;
-	border-color: #6dcff6;
+#search *{transition:none}
+#search input[type="text"]{
+	opacity: 0;
+	border: 0;
+	outline: 0;
+	color: #fff;
+	color:transparent;
 	box-shadow: none;
-}
+	transition:width 0.5s;
 
-
-#top2 input:-moz-placeholder {
-	color: #999;
-}
-#top2 input::-webkit-input-placeholder {
-	color: #999;
-}
-/* Демо B */
-.search
-{
-    border: none;
-    background: none;
-    float:right;
-}
-.search:after {
-    background: url(images/search-icon.png) no-repeat 9px center;
-    width: 30px;
-    height: 30px;
-    display: block;
-    visibility: hidden;
-    z-index: 3;
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-#top2 #search input[type=text] {
+	height: 30px;
 	width: 30px;
-	padding-left: 10px;
-    padding-right: 20px;
-	color: transparent;
-	cursor: pointer;
+	
+	background: transparent;
 }
-#top2 #search input[type=text]:hover {
-	background-color: #fff;
+#search input[type="submit"]{
+	display: none;
+	
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+	height: 30px;
+	width: 30px;
 }
-#top2 #search input[type=text]:focus {
+
+#search.focus{
 	width: 100%;
-	padding-left: 10px;
-    padding-right: 20px;
+	background: #fff;
+}
+#search.focus input[type="text"] {
+	opacity: 1;
+	width: 100%;
+	
+	border-bottom: 1px solid #000;
 	color: #000;
-	background-color: #fff;
-     border-bottom: 2px solid #462626;
-	cursor: auto;
-    box-shadow: none;
 }
-#top2 #search input[type=text]:focus+.input-group-btn .search:after {
-    display: block;
-    visibility: visible;
-}
-
-
-#top2 #search input:-moz-placeholder {
-	color: transparent;
-}
-#top2 #search input::-webkit-input-placeholder {
-	color: transparent;
-}
-
-
-
+#search.focus input[type="submit"]{
+	display: inline-block;
+}*/
 
 .valm {
     transform: translateY(50%);

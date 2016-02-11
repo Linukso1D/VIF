@@ -32,6 +32,7 @@
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
 <link href="media/newsletter/css/stylesheet.css" rel="stylesheet">
+ <link href="catalog/view/theme/default/stylesheet/callback.css" rel="stylesheet" type="text/css" />
 <script src="media/newsletter/js/main.js" type="text/javascript"></script>
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
@@ -46,27 +47,48 @@
 <?php foreach ($analytics as $analytic) { ?>
 <?php echo $analytic; ?>
 <?php } ?>
+
 </head>
 <div id="wrap">
 <body class="<?php echo $class; ?>">
+
+
+
 <nav id="top">
   <div class="container">
     <!-- TOP LINKS --> 
     <div class="row">
-        <div class="col-xs-4 col-md-3"></div>
-        <div class="col-xs-12 col-md-6 wh headlink">
+
+        <div class="col-xs-12 col-md-6 wh headlink" >
            <a class="upper" href="/o-nas.html">О компании</a>
-           <a class="upper" href="/news">Новости</a>
+              
+                  <span style="position:relative;">
+                  <button class="btnUnset dropdown-toggle upper" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" >
+                    Нужна помощь
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="<?php echo $contact; ?>">Свяжитесь с нами</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Гарантии</a></li>
+                    <li><a href="#">Уход за изделиями</a></li>
+                  </ul>
+                </span>
+          
            <a class="upper" href="/articles">Отзывы</a>
-           <a class="upper" href="<?php echo $contact; ?>">Контакты</a> 
+           <a class="contact-btn upper" href >Заказать звонок</a>
+          
+           
+           
+
         </div>
-        <div class="col-md-3 hidden-xs hidden-sm " style="    max-height: 20px;">
+        <div class="col-md-3 col-md-offset-3 hidden-xs hidden-sm " style="    max-height: 20px;">
                    
-                 <div id="advanced-newsletter-box" style="padding:0px;">
+                 <div id="advanced-newsletter-box" class="pull-right" style="padding:0px;">
                         <div class="input-group box-newsletter-subscribe" id="mail-box">
                             <input type="text" name="email" style="    height: 22px;" placeholder="Ваш Email"/>
                             <span class="input-group-btn" >
-                            <button class="btn btn-brown enter-subscribe" style="    padding: 6px 12px;" type="button">ПОДПИСАТЬСЯ</button>
+                            <button class="btn btn-brown enter-subscribe" style="    padding: 6px 6px 0px 12px;" type="button">ПОДПИСАТЬСЯ</button>
                             </span>
                         </div>
                     </div>
@@ -75,20 +97,34 @@
     </div>
         </div> 
     </nav>
-     <div class="container">
+     <div class="container" id="top2">
     <!-- image -->
-    <div class="row">
-        <div class="col-xs-4"></div>
-        <div class="col-xs-4 mgt15">
+    <div class="row mgt15">
+        
+        <div class="col-xs-12 col-md-4 col-sm-4 ">
                  <div id="logo">
                   <?php if ($logo) { ?>
-                  <a href="<?php echo $home; ?>"><img style="margin: auto;" src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
+                  <a href="<?php echo $home; ?>"><img  src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
                   <?php } else { ?>
                   <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
                   <?php } ?>
                 </div>
         </div>
-        <div class="col-xs-3"></div>
+        <div class="col-xs-12 col-md-3 col-sm-4 vertcenr">
+        <span > <?php echo $telephone; ?> </span>
+          
+        </div>
+        <div class="col-xs-12 col-md-3 col-sm-4 vertcenr">
+        <span ><?php echo $address; ?></span>
+        
+        </div>
+        
+        <div class="col-md-2 col-sm-4 hidden-xs   hidden-sm">
+
+           
+         </div> 
+        
+        
     </div>
 
    
@@ -123,8 +159,8 @@
 <!-- MENU -->
  
  <div class="row">
-     <div class="col-md-3"></div>
-     <div class="col-md-6">
+
+     <div class="col-md-12">
     <nav id="menu" class="navbar">
                     <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
                       <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
@@ -132,16 +168,60 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
         <?php foreach ($categories as $category) { ?>
+
         <?php if ($category['children']) { ?>
         <li class="wh upper dropdown"><a href="<?php echo $category['href']; ?>" class="dropdown-toggle slab" data-toggle="dropdown"><?php echo $category['name']; ?> <i class="fa fa-angle-down"></i></a>
           <div class="dropdown-menu">
-            <div class="dropdown-inner">
+            <div class="dropdown-inner" >
               <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
+              
+              
+             
               <ul class="list-unstyled">
-                <?php foreach ($children as $child) { ?>
-                <li><a href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a></li>
-                <?php } ?>
+               <div class="row">
+               <div class="col-sm-6">
+                <?php foreach ($children as $child) { if(count($children)<3) {?>
+                 <div class="col-sm-6">
+                 
+                  <li><a href="<?php echo $child['href']; ?>"><b><?php echo $child['name']; ?></b></a></li>
+               
+                      
+                  <!-- дочки -->
+                       <?php foreach ($category['daughters'] as $daughter) { if($daughter['category_id']==$child['category_id']){ ?> 
+                       <div class="row">
+              
+                           <div class="col-sm-12">
+                                <li><a href="<?php echo $daughter['href']; ?>"><?php echo $daughter['name']; ?></a></li>
+                           </div>
+                       </div>
+                    <?php }} ?>
+                    <!-- дочки -->
+                 </div>
+                <?php }
+                else
+                { ?>
+               
+                       <div class="row">
+              
+                           <div class="col-sm-12"><div class="col-sm-12">
+                                <li><a href="<?php echo $child['href']; ?>"><b><?php echo $child['name']; ?></b></a></li>
+                           </div></div>
+                       </div>
+                    
+           <?php } } ?></div>
+                <div class="col-sm-6">
+                <a href="<?php echo $category['href']; ?>"> <img src="<?php echo $category['image']; ?>" style="width:100%;" alt=""></a>
+                   </div>
+                </div>
               </ul>
+              
+              
+              
+              
+              
+              
+              
+              
               <?php } ?>
             </div>
              </div>
@@ -150,18 +230,16 @@
         <li><a class="wh upper slab" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
         <?php } ?>
         <?php } ?>
+        <li><a class="wh upper slab" href="/personalizatsija">Персонализация</a></li>
+              
       </ul>
     </div>
+    
+      <?php echo $search; ?>
   </nav>
          
      </div>
-     <div class="col-md-3 hidden-xs  hidden-sm" style="max-height:25px;padding-top:2px;">
-        <?php echo $search; ?>    
-     
 
-
-         
-     </div>
  </div>
  
   

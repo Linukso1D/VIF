@@ -57,16 +57,12 @@ class ControllerModuleCategory extends Controller {
                                     $daughters = $this->model_catalog_category->getCategories($child['category_id']);
 
                                     foreach($daughters as $daughter) {
-                                       
-
-                                        $daughter_data[] = array(
+                                            $daughter_data[] = array(
                                             'category_id' => $daughter['category_id'],
                                             'name' => $daughter['name'],
                                             'href' => $this->url->link('product/category', 'path=' . $category['category_id'] . '_' . $child['category_id'].'_'.$daughter['category_id'])
                                         );
                                     }
-                    
-                                
                                 //-------------------     
                     
                     

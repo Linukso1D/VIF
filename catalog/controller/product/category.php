@@ -67,10 +67,12 @@ class ControllerProductCategory extends Controller {
 
 			$category_id = (int)array_pop($parts);
 
-			foreach ($parts as $path_id) {
-				if (!$path) {
+			foreach ($parts as $path_id){
+				if (!$path) 
+                {
 					$path = (int)$path_id;
-				} else {
+				} else 
+                {
 					$path .= '_' . (int)$path_id;
 				}
 

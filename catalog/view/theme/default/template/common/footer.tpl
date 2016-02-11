@@ -44,7 +44,7 @@
                
             </div>
 
-            <div class="col-md-5 hidemob">
+            <div class="col-md-6 hidemob">
                 <!-- Новости -->
                 <label class="heading-title slab mgb15">НОВОСТИ</label>
                 <div class="row">
@@ -88,21 +88,17 @@
 
             </div>
 
-            <div class="col-md-2 col-sm-4 col-xs-12">
+            <div class="col-md-2 col-sm-4 col-xs-12" style="text-align:right;" >
                 <div style="    margin-bottom: -9px;">
-                    <label class="heading-title slab mgb15">
+                    <label class="heading-title slab mgb15 " style="text-align:center; width: 100%;">
                         КАК НАЙТИ VIF
                     </label>
-                    <div style="position:relative;">
-                       <div>
+                    <div class="maptext" style="position:relative;">
+                       <div >
                         <img src="image/catalog/map.png" alt="">
                         </div>
-                        <div class="maptext">
-                            <p style="text-align:center;"><?php echo $data['address']; ?></p>
-                        </div>
-                    </div>
-                </div>
-                <!-- как найти виф -->
+                       
+                         
                 <div class="fsize28">
                 <a href="#" title="titles"><i class="fa fa-instagram " ></i></a>
                 <a href="#" title="titles"><i class="fa fa-google-plus " ></i></a>
@@ -110,8 +106,22 @@
                 <a href="#" title="titles"><i class="fa fa-vk "></i></a>
                 <a href="#" title="titles"><i class="fa fa-facebook " ></i></a>
                 </div>
-                <p>2016 &copy; Divotek</p>
+                    </div>
+                </div>
+                <!-- как найти виф -->
+               
+                
             </div>
+        </div>
+        <div class="row mgt15" >
+             <div class="col-md-6 col-xs-12 col-sm-6"><p><?php echo $data['address']; ?></p>
+</div>  
+             
+            <div class="col-md-6 col-xs-12 col-sm-6 pull-right mobc">
+               <p > © 2016 VIF. ALL RIGHTS RESERVED CREATED BY DIVOTEK</p>
+            </div>    
+              
+                  
         </div>
     </div>
 </footer>
@@ -122,7 +132,11 @@ Please donate via PayPal to donate@opencart.com
 //-->
 
 <!-- Theme created by Welford Media for OpenCart 2.0 www.welfordmedia.co.uk -->
-
+ <script type="text/javascript" src="catalog/view/javascript/callback.js"></script>
+    <script type="text/javascript" src="catalog/view/javascript/jquery.simplemodal.js"></script>
 </body>
+
+
+   
 
 </html>

@@ -1608,6 +1608,17 @@ a.thumbnail:hover {
     font-family: sans-serif;
     line-height: 50px;
 }
+.browncategory img
+{
+	width: 100%;
+}
+
+
+.headtext
+{
+	color: #291616 ;
+	font-size: 10pt;
+}
 
 .navbar {
     margin-bottom: 0px;
@@ -1796,7 +1807,7 @@ input {
     color: #462626;
 }
 
-/* Заполнитель */
+/* ПОИСК НА всю ширину меню */
 
 
 #search{display:inline-block;border:0;padding:0;background: #fff url(images/search-icon.png) no-repeat center right;width: 30px;overflow:hidden;background-position: 10px center;}
@@ -1815,57 +1826,8 @@ input {
 #search.focus{background:#fff;width:auto;}
 #search.focus button{opacity: 1;z-index: 1;}
 #search.focus input{opacity: 1;cursor: auto;}
+/* ПОИСК НА всю ширину меню */
 
-/*
-#search{
-	position: absolute;
-	top: 0;
-	right: 0;	
-	
-	background: #fff url(images/search-icon.png) right center no-repeat;
-	background-size: auto 70%;
-	text-align: right;
-}
-#search *{transition:none}
-#search input[type="text"]{
-	opacity: 0;
-	border: 0;
-	outline: 0;
-	color: #fff;
-	color:transparent;
-	box-shadow: none;
-	transition:width 0.5s;
-
-	height: 30px;
-	width: 30px;
-	
-	background: transparent;
-}
-#search input[type="submit"]{
-	display: none;
-	
-	position: absolute;
-	top: 0;
-	right: 0;
-	
-	height: 30px;
-	width: 30px;
-}
-
-#search.focus{
-	width: 100%;
-	background: #fff;
-}
-#search.focus input[type="text"] {
-	opacity: 1;
-	width: 100%;
-	
-	border-bottom: 1px solid #000;
-	color: #000;
-}
-#search.focus input[type="submit"]{
-	display: inline-block;
-}*/
 
 .valm {
     transform: translateY(50%);

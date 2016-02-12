@@ -7740,3 +7740,9 @@
 2016-02-11 9:43:50 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\articles.php on line 20
 2016-02-11 9:43:50 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\articles.php on line 26
 2016-02-11 9:43:50 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\articles.php on line 35
+2016-02-12 9:33:38 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\news.php on line 22
+2016-02-12 9:33:38 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\news.php on line 28
+2016-02-12 9:33:38 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\news.php on line 37
+2016-02-12 9:33:38 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\articles.php on line 20
+2016-02-12 9:33:38 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\articles.php on line 26
+2016-02-12 9:33:38 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\VIF\admin\model\setting\articles.php on line 35

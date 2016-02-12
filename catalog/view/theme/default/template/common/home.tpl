@@ -13,9 +13,12 @@
    <!--Категории -->  
 
             <div class="row homecategory">
-
-                <?php $i=0; foreach ($categories as $category) { if($i<3) {?>
-            <div class="col-md-4">
+			<div class="col-md-6">
+                <?php $i=0; foreach ($categories as $category) { if($i<3){?>
+                
+                <?php if($i==0){?>
+                
+            <div class="col-md-12">
                 <div class = "browncategory"  >
                  <a href="<?php echo $category['href'] ?>" >
                       <img src="<?php echo $category['image'] ?>" alt="">
@@ -28,7 +31,62 @@
                  </div>
 
             </div>
+            <?php } else {?>
+            
+             <div class="col-md-6">
+                <div class = "browncategory"  >
+                 <a href="<?php echo $category['href'] ?>" >
+                      <img src="<?php echo $category['image'] ?>" alt="">
+                      <div class="btnbrown">
+                        <span>
+                         <?php echo $category['name'] ?> 
+                         </span>
+                      </div>
+                 </a>
+                 </div>
+
+            </div>
+            
+            
+            
+            <?php } ?>
              <?php $i++; }} ?>
+             </div>
+             
+            <div class="col-md-6">
+            
+            
+            
+                     <?php $j=0; foreach (array_reverse($categories) as $category) { if($j<2){?>
+                
+                
+                
+            <div class="col-md-12">
+                <div class = "browncategory"  >
+                 <a href="<?php echo $category['href'] ?>" >
+                      <img src="<?php echo $category['image'] ?>" alt="">
+                      <div class="btnbrown">
+                        <span>
+                         <?php echo $category['name'] ?> 
+                         </span>
+                      </div>
+                 </a>
+                 </div>
+
+            </div>
+            
+            
+            
+             <?php $j++; }} ?>
+            					
+            
+            
+            
+ 				</div>
+             
+             
+             
+             
              </div>
     
             

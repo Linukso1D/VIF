@@ -111,11 +111,11 @@
                 </div>
         </div>
         <div class="col-xs-12 col-md-3 col-sm-4 vertcenr">
-        <span > <?php echo $telephone; ?> </span>
+        <span class="headtext" > <?php echo $telephone; ?> </span>
           
         </div>
         <div class="col-xs-12 col-md-3 col-sm-4 vertcenr">
-        <span ><?php echo $address; ?></span>
+        <span class="headtext" ><?php echo $address; ?></span>
         
         </div>
         

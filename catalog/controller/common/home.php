@@ -50,7 +50,7 @@ class ControllerCommonHome extends Controller {
         
         //category
 	        $this->load->model('catalog/category');
-        	$categories = $this->model_catalog_category->getCategories(0);
+        	$categories = $this->model_catalog_category->getCategories(139);
 
 		foreach ($categories as $category) {
 			$children_data = array();
@@ -58,7 +58,7 @@ class ControllerCommonHome extends Controller {
 			$data['categories'][] = array(
 				'category_id' => $category['category_id'],
 				'name'        => $category['name'],
-                'image'		  => $this->model_tool_image->resize($category['image'], 219, 212),
+                'image'		  => $this->model_tool_image->resize($category['image'], 500, 180),
 				'href'        => $this->url->link('product/category', 'path=' . $category['category_id'])
 			);
 		}
